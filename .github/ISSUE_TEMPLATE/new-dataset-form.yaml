@@ -25,14 +25,6 @@ body:
       placeholder: e.g. Gulf of Maine WBTS Calanus Abundance Observations
     validations:
       required: true
-  - type: input
-    id: title
-    attributes:
-      label: Dataset Title
-      description: A short title used to refer to your dataset.
-      placeholder: e.g. Gulf of Maine WBTS Calanus Abundance Observations
-    validations:
-      required: true
   - type: textarea
     id: dataset-description
     attributes:

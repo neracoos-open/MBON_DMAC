@@ -11,22 +11,21 @@ assignees: Dylan-Pugh
 
 ## What is this dataset?
 
-## Why is this dataset important?
-
-### What variables in the dataset are important?
+## Which project/organization is associated with this dataset?
 
 ## Who manages this dataset?
 
-## How should we get the data?
-
-### How often should we refresh this data
+## How often is this data updated?
 
 ## Where should this data be displayed?
 
 - [ ] ERDDAP
 - [ ] THREADS
-- [ ] Mariner's Dashboard
 
 ## Is there anything strange about its structure or processing methods?
 
-## Please attach some example data from the dataset
+## Please attach the dataset here
+
+## Please attach any associated metadata documents here
+
+### Or follow this link and post the output here

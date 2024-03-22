@@ -1,0 +1,75 @@
+name: New Dataset
+description: Submit a dataset, finalize it, and send it to ERDDAP
+title: "[New Dataset]: "
+labels: ["dataset"]
+assignees:
+  - Dylan-Pugh
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a new dataset! Please fill out the fields below to begin the process.
+  - type: input
+    id: contact
+    attributes:
+      label: PI/Data Manager Contact
+      description: Point of contact for questions about the data
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Dataset Title
+      description: A short title used to refer to your dataset.
+      placeholder: e.g. Gulf of Maine WBTS Calanus Abundance Observations
+    validations:
+      required: true
+  - type: textarea
+    id: dataset-description
+    attributes:
+      label: Dataset Description
+      description: Please provide a brief description of this dataset.
+    validations:
+      required: true
+  - type: textarea
+    id: update-frequency
+    attributes:
+      label: How often is this data updated?
+    validations:
+      required: true
+  - type: input
+    id: dataset_link
+    attributes:
+      label: Link to Dataset
+      description: Link to the "raw" data files.
+      placeholder: Google Drive/AWS S3 link
+    validations:
+      required: false
+  - type: input
+    id: metadata_link
+    attributes:
+      label: Link to Metadata
+      description: Link to the any associated metadata files.
+      placeholder: Google Drive/AWS S3 link
+    validations:
+      required: false
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which project/organization is associated with this dataset?
+      options:
+        - ISMN
+        - NERACOOS
+        - UNH
+        - BOEM
+      default: 0
+    validations:
+      required: false
+  - type: checkboxes
+    id: endpoints
+    attributes:
+      label: Where should this data be displayed?
+      options:
+        - label: ERDDAP

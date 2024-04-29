@@ -1,0 +1,8 @@
+name: metadata_form
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pre-commit
+  - python
+  - streamlit

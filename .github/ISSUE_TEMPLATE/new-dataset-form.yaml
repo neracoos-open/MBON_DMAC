@@ -46,6 +46,10 @@ body:
       placeholder: Google Drive/AWS S3 link
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        [Metadata helper link](https://mbon-metadata.streamlit.app/)
   - type: input
     id: metadata_link
     attributes:

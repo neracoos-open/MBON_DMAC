@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Streamlit: MBON Metadata Form",
+            "type": "debugpy",
+            "request": "launch",
+            //"preLaunchTask": "Activate Conda Environment", 
+            "module": "streamlit",
+            "args": [
+                "run",
+                "metadata_form/Home.py"
+            ],
+            "jinja": true,
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 # MBON DMAC
-Central hub to facilitate data management and archiving workflows for the Integrated Sustained Marine Observing Network (ISMN) and the Marine Biodiversity Observation Network (MBON) projects.
+This is the central hub to facilitate data management and archiving workflows for the Integrated Sustained Marine Observing Network (ISMN) and the Marine Biodiversity Observation Network (MBON) projects.
 
 # Target Users
 
@@ -35,4 +35,4 @@ Coming soon!
 
 
 # Contact
-Please open an issue and assign @dylan-pugh
+Please open an issue and assign @Dylan-Pugh

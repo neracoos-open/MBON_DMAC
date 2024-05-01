@@ -18,7 +18,224 @@ This repository is intended for:
 
 # Example: "Gold Standard" Metadata
 
-Coming soon!
+```YAML
+global:
+  add:
+    acknowledgment: Data collection was supported by multiple awards to NERACOOS,
+      the University of New Hampshire             and the University of Maine from
+      various funding agencies, including NSF, NOAA and BOEM.
+    contributor_email: jackie@neracoos.org
+    contributor_name: NERACOOS ISMN
+    creator_country: USA
+    creator_email: jeffrey.runge@maine.edu
+    creator_institution: School of Marine Sciences, University of Maine, Darling Marine
+      Center
+    creator_name: Jeffrey Runge, Ph.D
+    creator_role: PI
+    creator_sector: academic
+    creator_type: person
+    infoUrl: https://www.sentinelmonitoring.org/
+    institution: University of Maine/NERACOOS
+    keywords: Biodiversity, plankton, Gulf of Maine, time series, Calanus
+    program: NERACOOS
+    project: NERACOOS
+    sourceUrl: local files
+    subsetVariables: Station_ID, Mesh_Size
+    summary: Coastal Maine Time Series Station (CMTS)
+    time_coverage_end: '2023-08-12T00:11:00-05:00'
+    time_coverage_start: '2020-08-12T00:11:00-05:00'
+    title: Gulf of Maine CMTS Calanus Abundance Observations, since 2020
+variables:
+  CAST:
+    add:
+      destinationName: Cast
+      ioos_category: Unknown
+      long_name: Cast number for a given date
+      standard_name: null
+      units: null
+  COMMENT:
+    add:
+      destinationName: COMMENT
+      ioos_category: Unknown
+      long_name: Comment
+      standard_name: null
+      units: null
+  CRUISE_ID:
+    add:
+      destinationName: CRUISE_ID
+      ioos_category: Identifier
+      long_name: Cruise Identification Label
+      standard_name: null
+      units: null
+  Calanus_finmarchicus_CI:
+    add:
+      destinationName: Calanus_finmarchicus_CI
+      ioos_category: Unknown
+      long_name: Calanus Finmarchicus stage CI
+      standard_name: null
+      units: Number of stage CI per m2
+  Calanus_finmarchicus_CII:
+    add:
+      destinationName: Calanus_finmarchicus_CII
+      ioos_category: Unknown
+      long_name: Calanus Finmarchicus stage CII
+      standard_name: null
+      units: Number of stage CII per m2
+  Calanus_finmarchicus_CIII:
+    add:
+      destinationName: Calanus_finmarchicus_CIII
+      ioos_category: Unknown
+      long_name: Calanus Finmarchicus stage CIII
+      standard_name: null
+      units: Number of stage CIII per m2
+  Calanus_finmarchicus_CIV:
+    add:
+      destinationName: Calanus_finmarchicus_CIV
+      ioos_category: Unknown
+      long_name: Calanus Finmarchicus stage CIV
+      standard_name: null
+      units: Number of stage CIV per m2
+  Calanus_finmarchicus_CV:
+    add:
+      destinationName: Calanus_finmarchicus_CV
+      ioos_category: Unknown
+      long_name: Calanus Finmarchicus stage CV
+      standard_name: null
+      units: Number of stage CV per m2
+  Calanus_finmarchicus_F:
+    add:
+      destinationName: Calanus_finmarchicus_F
+      ioos_category: Unknown
+      long_name: Calanus Finmarchicus stage CVI Female
+      standard_name: null
+      units: Number of adult females per m2
+  Calanus_finmarchicus_M:
+    add:
+      destinationName: Calanus_finmarchicus_M
+      ioos_category: Unknown
+      long_name: Calanus Finmarchicus stage CVI Male
+      standard_name: null
+      units: Number of adult males per m2
+  Calanus_finmarchicus_N:
+    add:
+      destinationName: Calanus_finmarchicus_N
+      ioos_category: Statistics
+      long_name: Calanus Finmarchicus Nauplius stages
+      standard_name: null
+      units: Number of all nauplius stages per m2
+  DW(G_M-2):
+    add:
+      destinationName: DW_G_M_2
+      ioos_category: Unknown
+      long_name: DW(G M-2)
+      standard_name: null
+      units: g/m2
+  KEY:
+    add:
+      destinationName: Cruise_Identification_Tag
+      ioos_category: Unknown
+      long_name: Cruise Identification Tag
+      standard_name: null
+      units: null
+  LAT_(DECIMAL):
+    add:
+      destinationName: latitude
+      ioos_category: Location
+      long_name: Latitude
+      standard_name: latitude
+      units: degrees_north
+  LON_(DECIMAL):
+    add:
+      destinationName: longitude
+      ioos_category: Location
+      long_name: Longitude
+      standard_name: longitude
+      units: degrees_east
+  MESH:
+    add:
+      destinationName: Mesh_Size
+      ioos_category: Unknown
+      long_name: Net mesh size
+      standard_name: null
+      units: microns
+  NET_AREA:
+    add:
+      destinationName: Plankton_Net_Area
+      ioos_category: Unknown
+      long_name: Area of plankton net
+      standard_name: null
+      units: m2
+  NET_DEPTH:
+    add:
+      destinationName: NET_DEPTH
+      ioos_category: Location
+      long_name: Maximum depth net deployed
+      standard_name: null
+      units: meters
+  NET_ID:
+    add:
+      destinationName: Net_Type
+      ioos_category: Unknown
+      long_name: Net characteristics
+      standard_name: null
+      units: null
+  SAMP_DW(G):
+    add:
+      destinationName: Sample_Dry_Weight
+      ioos_category: Unknown
+      long_name: Sample Dry Weight
+      standard_name: null
+      units: g
+  SPLIT:
+    add:
+      destinationName: Sample_Split
+      ioos_category: Unknown
+      long_name: Sample split identifier
+      standard_name: null
+      units: null
+  STATION:
+    add:
+      destinationName: Station_ID
+      ioos_category: Identifier
+      long_name: Station Identifier
+      standard_name: null
+      units: null
+  STATION_DEPTH:
+    add:
+      destinationName: STATION_DEPTH
+      ioos_category: Location
+      long_name: Depth of station
+      standard_name: null
+      units: meters
+  TOTAL_DILFACTOR_(CFIN):
+    add:
+      destinationName: TOTAL_DILFACTOR_CFIN
+      ioos_category: Unknown
+      long_name: TOTAL DILFACTOR (CFIN)
+      standard_name: null
+      units: g
+  TOTAL_DILFACTOR_(OTHER):
+    add:
+      destinationName: Dilution_Factor
+      ioos_category: Unknown
+      long_name: Dilution factor
+      standard_name: null
+      units: g
+  VOL_FILT:
+    add:
+      destinationName: Volume_Filtered
+      ioos_category: Unknown
+      long_name: Volume cleared by plankton net
+      standard_name: null
+      units: m3
+  time:
+    add:
+      destinationName: time
+      ioos_category: Time
+      long_name: Time
+      standard_name: time
+      units: null
+```
 
 # Additional Resources
 - MBON datasets in ERDDAP

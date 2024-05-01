@@ -69,13 +69,28 @@ GLOBAL_ERDDAP_FIELDS = {
 }
 
 
-DATA_VARIABLE_ERDDAP_FIELDS = [
-    "destinationName",
-    "ioos_category",
-    "long_name",
-    "standard_name",
-    "units",
-]
+DATA_VARIABLE_ERDDAP_FIELDS = {
+    "destinationName": {
+        "description": "Name of the variable in the destination ERDDAP server",
+        "required": True,
+    },
+    "ioos_category": {
+        "description": "Category of the variable according to IOOS standards",
+        "required": True,
+    },
+    "long_name": {
+        "description": "Long descriptive name of the variable",
+        "required": True,
+    },
+    "standard_name": {
+        "description": "Standardized name following a specific vocabulary",
+        "required": False,
+    },
+    "units": {
+        "description": "Units of measurement for the variable values",
+        "required": False,
+    },
+}
 
 IOOS_CATEGORIES = [
     "Bathymetry",

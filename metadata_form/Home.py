@@ -129,11 +129,17 @@ if uploaded_file is not None:
         column_submitted = st.form_submit_button("Submit")
 
     if column_submitted or ("output_yaml" in st.session_state and st.session_state["output_yaml"]):
+        required_var_fields = [
+            key
+            for key, value in constants.DATA_VARIABLE_ERDDAP_FIELDS.items()
+            if value["required"] is True
+        ]
+
         all_valid = True
         for key, value in column_metadata.items():
             validation_result, missing_key = validate_metadata_dict(
                 metadata=value,
-                required_keys=constants.DATA_VARIABLE_ERDDAP_FIELDS,
+                required_keys=required_var_fields,
             )
             if not validation_result:
                 st.error(

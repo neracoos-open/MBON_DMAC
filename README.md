@@ -22,7 +22,7 @@ This repository is intended for:
 global:
   add:
     acknowledgment: Data collection was supported by multiple awards to NERACOOS,
-      the University of New Hampshire             and the University of Maine from
+      the University of New Hampshire and the University of Maine from
       various funding agencies, including NSF, NOAA and BOEM.
     contributor_email: jackie@neracoos.org
     contributor_name: NERACOOS ISMN

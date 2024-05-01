@@ -1,11 +1,11 @@
 # MBON DMAC
-This is the central hub to facilitate data management and archiving workflows for the Integrated Sustained Marine Observing Network (ISMN) and the Marine Biodiversity Observation Network (MBON) projects.
+This is the central hub to facilitate data management and archiving workflows for the [Integrated Sentinel Monitoring Network (ISMN)](https://www.sentinelmonitoring.org/) and [Marine Biodiversity Observation Network (MBON)](https://ioos.noaa.gov/project/mbon/) projects.
 
 # Target Users
 
 This repository is intended for:
-- ISMN/MBON data providers: Researchers responsible for submitting data and metadata to the ISMN/MBON project.
-- Data managers: Individuals tasked with managing data submissions, processing workflows, and ensuring data quality within the project.
+- ISMN/MBON data providers: Researchers responsible for submitting data and metadata to the ISMN/MBON projects.
+- Data managers: Individuals tasked with managing data submissions and processing workflows within the projects.
 
 # Getting Started
 

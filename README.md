@@ -28,8 +28,7 @@ global:
     contributor_name: NERACOOS ISMN
     creator_country: USA
     creator_email: jeffrey.runge@maine.edu
-    creator_institution: School of Marine Sciences, University of Maine, Darling Marine
-      Center
+    creator_institution: School of Marine Sciences, University of Maine, Darling Marine Center
     creator_name: Jeffrey Runge, Ph.D
     creator_role: PI
     creator_sector: academic
@@ -252,4 +251,4 @@ variables:
 
 
 # Contact
-Please open an issue and assign @Dylan-Pugh
+Please open an issue and assign [@Dylan-Pugh](https://github.com/Dylan-Pugh)

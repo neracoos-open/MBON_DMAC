@@ -15,14 +15,25 @@ checks to ensure required fields are present.
 * The YAML metadata is displayed and can be downloaded as a file (metadata.yaml).
 """
 
+import json
 import pandas as pd
 import streamlit as st
+import extra_streamlit_components as stx
 
 from data import constants
 from utils import convert_forms_to_yaml, guess_metadata, validate_metadata_dict
 
 
 st.set_page_config(layout="wide", page_icon=":dna:")
+
+
+@st.cache_resource
+def get_manager():
+    return stx.CookieManager()
+
+
+cookie_manager = get_manager()
+
 
 if "combined_metadata" not in st.session_state:
     st.session_state["combined_metadata"] = {}
@@ -161,6 +172,30 @@ if uploaded_file is not None:
                 data=output_yaml,
                 file_name="metadata.yaml",
             )
+    save_button = st.button("Save Progress")
+    if save_button:
+        # Get data from both forms (assuming form_submit_button not used)
+        global_metadata = st.session_state["global_metadata_form"]  # Assuming data stored in session_state
+        metadata = st.session_state["metadata_form"]  # Assuming data stored in session_state
+
+        # Combine form data
+        combined_data = {"global_metadata": global_metadata, "metadata": metadata}
+
+        # Save data to a downloadable file
+        try:
+            # Convert data to JSON string
+            json_data = json.dumps(combined_data)
+
+            # Download button with filename and data
+            st.download_button(
+                label="Download Saved Progress",
+                data=json_data.encode("utf-8"),
+                file_name="saved_progress.json",
+                mime="application/json",
+            )
+            st.success("Data ready for download!")
+        except Exception as e:
+            st.error(f"Error saving data: {e}")
 
 else:
     st.write("Please upload a CSV file to view its contents.")

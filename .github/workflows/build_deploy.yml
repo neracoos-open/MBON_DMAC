@@ -19,9 +19,9 @@ jobs:
         uses: actions/cache@v3
         with:
           path: /tmp/myimage.tar
-          key: mbon-image-${{ github.sha }}
+          key: mbon-meta-image-${{ github.sha }}
           restore-keys: |
-            mbon-image-
+            mbon-meta-image-
 
       - name: Login to Docker Hub
         uses: docker/login-action@v2.1.0
@@ -33,7 +33,7 @@ jobs:
       - name: Build MBON Metadata Form image
         uses: docker/build-push-action@v4.0.0
         with:
-          context: .
+          context: ./metadata_form
           push: false
           tags: gmri/mbon-metadata-form:latest
           cache-from: type=gha
@@ -56,9 +56,9 @@ jobs:
         uses: actions/cache@v3
         with:
           path: /tmp/myimage.tar
-          key: mbon-image-${{ github.sha }}
+          key: mbon-meta-image-${{ github.sha }}
           restore-keys: |
-            mbon-image-
+            mbon-meta-image-
 
       - name: Load Docker image
         run: |

@@ -1,0 +1,2 @@
+streamlit == 1.36.0
+pyyaml == 6.0.1

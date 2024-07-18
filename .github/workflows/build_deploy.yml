@@ -46,7 +46,7 @@ jobs:
     needs: build
     if: |
       github.repository == 'neracoos-open/MBON_DMAC'
-      && github.ref == 'refs/heads/master'
+      && github.ref == 'refs/heads/main'
 
     steps:
       - name: "Checkout"

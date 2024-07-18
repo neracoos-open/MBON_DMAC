@@ -1,6 +1,6 @@
 # app/Dockerfile
 
-FROM python:3.12-slim
+FROM python:3.12-slim@sha256:f11725aba18c19664a408902103365eaf8013823ffc56270f921d1dc78a198cb
 
 WORKDIR /app
 

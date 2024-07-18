@@ -5,12 +5,14 @@ FROM python:3.12-slim
 WORKDIR /app
 
 RUN mkdir metadata_form
+RUN mkdir metadata_form/data
 
-COPY ./requirements.txt /app/requirements.txt
+COPY ./requirements.txt requirements.txt
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-COPY ./ metadata_form
+COPY ./Home.py utils.py metadata_form/
+COPY ./data metadata_form/data/
 
 EXPOSE 8501
 

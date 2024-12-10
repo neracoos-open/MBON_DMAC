@@ -1,0 +1,383 @@
+﻿Year,Month,Date,Time,FMESampleID,SampleID,Sample,Project,DepthCode,AlternateID1,AlternateID2,AlternateID3,SampleType,Site,VolumeFiltered,NumFiltersUsed,Lat,Lon,SamplingNotes,Disposition,Vessel,Salinity,Temp,ProcessingInfo,ProcessingNotes,Well,WaterDepth,NiskinDepth,Habitat
+2021,8,8/3/2021,9:54:00 AM,B1T1,B1T1,B1,TERNS,TB,,,,blank,Piscataqua river mouth,1,,43.12112,-70.83926,taken alongside S8T1,unknown,galen,,,unknown,"in our records we had results for these from the watts lab, but they are not in the 9/27/24 run",,,,nearshore
+2021,8,8/3/2021,11:22:00 AM,B2T1,B2T1,B2,TERNS,TB,,,,blank,Piscataqua river mouth,1,,43.17784,-70.71616,taken alongside S9T1,unknown,galen,,,unknown,"in our records we had results for these from the watts lab, but they are not in the 9/27/24 run",,,,nearshore
+2021,8,8/10/2021,10:38:00 AM,B3T1,B3T1,B3,TERNS,TB,,,,blank,Piscataqua river mouth,1,,43.11916,-70.83357,taken alongside S7,unknown,galen,,,unknown,"in our records we had results for these from the watts lab, but they are not in the 9/27/24 run",,,,nearshore
+2021,8,8/10/2021,11:30:00 AM,B4T1,B4T1,B4,TERNS,TB,,,,blank,Piscataqua river mouth,1,,43.07455,-70.71668,taken alongside S10,unknown,galen,,,unknown,"in our records we had results for these from the watts lab, but they are not in the 9/27/24 run",,,,nearshore
+2022,6,6/8/2022,1:10:00 PM,DP_22_01_B,2_1,DP_22_01_B,TERNS,TB,DP_22_01_B,Blank_DP_22_01_B,1-Feb,blank,Piscataqua river upriver,1,1,43.122253,-70.826951,was DP_22_B1,watts lab,,,,processed by genome center,,D1,,,upriver
+2022,6,6/8/2022,1:15:00 PM,DP_22_01_D1,2_2,DP_22_01,TERNS,S,DP_22_01_D1,DP_22_01_D1,2-Feb,sample,Piscataqua river upriver,2,1,43.122253,-70.826951,was DP_22_01,watts lab,,,,processed by genome center,,E1,,,upriver
+2022,6,6/8/2022,1:30:00 PM,DP_22_01_D2,2_3,DP_22_01,TERNS,S,DP_22_01_D2,DP_22_01_D2,3-Feb,sample,Piscataqua river upriver,1.5,1,43.122253,-70.826951,was DP_22_02,watts lab,,,,processed by genome center,,F1,,,upriver
+2022,6,6/22/2022,11:45:00 AM,DP_22_03_B,6_1,DP_22_03_B,TERNS,TB,DP_22_03_B,Blank_DP_22_03_B,1-Jun,blank,Piscataqua river upriver,1,1,43.122253,-70.826951,,watts lab,,,,processed by genome center,,H2,,,upriver
+2022,6,6/22/2022,,DP_22_03_D1,6_2,DP_22_03,TERNS,S,DP_22_03_D1,DP_22_03_D1,2-Jun,sample,Piscataqua river upriver,2,1,43.122253,-70.826951,significant rip in filter,watts lab,,,,processed by genome center,,A3,,,upriver
+2022,6,6/22/2022,12:05:00 PM,DP_22_03_D2,6_3,DP_22_03,TERNS,S,DP_22_03_D2,DP_22_03_D2,3-Jun,sample,Piscataqua river upriver,2,1,43.122253,-70.826951,,watts lab,,,,processed by genome center,,B3,,,upriver
+2022,7,7/6/2022,1:30:00 PM,DP_22_05_B,11_1,DP_22_05_B,TERNS,TB,DP_22_05_B,Blank_DP_22_05_B,1-Nov,blank,Piscataqua river upriver,1,1,43.122253,-70.826951,,watts lab,,,,processed by genome center,,G4,,,upriver
+2022,7,7/6/2022,,DP_22_05_D1,11_2,DP_22_05,TERNS,S,DP_22_05_D1,DP_22_05_D1,2-Nov,sample,Piscataqua river upriver,2,2,43.122253,-70.826951,,watts lab,,,,processed by genome center,,H4,,,upriver
+2022,7,7/6/2022,1:50:00 PM,DP_22_05_D2,11_3,DP_22_05,TERNS,S,DP_22_05_D2,DP_22_05_D2,3-Nov,sample,Piscataqua river upriver,2,2,43.122253,-70.826951,,watts lab,,,,processed by genome center,,A5,,,upriver
+2022,7,7/20/2022,12:50:00 PM,DP_22_07_B,19_1,DP_22_07_B,TERNS,TB,DP_22_07_B,Blank_DP_22_07_B,19-1,blank,Piscataqua river upriver,1,1,43.122253,-70.826951,,watts lab,,1.022,24.2,processed by genome center,,G7,,,upriver
+2022,7,7/20/2022,,DP_22_07_D1,19_2,DP_22_07,TERNS,S,DP_22_07_D1,DP_22_07_D1,19-2,sample,Piscataqua river upriver,2,1,43.122253,-70.826951,,watts lab,,1.022,24.2,processed by genome center,,H7,,,upriver
+2022,7,7/20/2022,1:05:00 PM,DP_22_07_D2,19_3,DP_22_07,TERNS,S,DP_22_07_D2,DP_22_07_D2,19-3,sample,Piscataqua river upriver,2,1,43.122253,-70.826951,,watts lab,,1.022,24.2,processed by genome center,,A8,,,upriver
+2022,6,6/8/2022,9:55:00 AM,FS_22_01_B,5_1,FS_22_01_B,TERNS,TB,,,,blank,Fort stark,1,1,43.0589394,-70.7128938,was FS_22_B1,watts lab,,,,processed by genome center,,,,,nearshore
+2022,6,6/8/2022,10:10:00 AM,FS_22_01_D1,5_2,FS_22_01,TERNS,S,,,,sample,Fort stark,1.5,1,43.0589394,-70.7128938,was FS_22_01,watts lab,,,,processed by genome center,,,,,nearshore
+2022,6,6/8/2022,10:15:00 AM,FS_22_01_D2,5_3,FS_22_01,TERNS,S,,,,sample,Fort stark,1.5,1,43.0589394,-70.7128938,was FS_22_02,watts lab,,,,processed by genome center,,,,,nearshore
+2022,6,6/22/2022,9:15:00 AM,FS_22_03_B,7_1,FS_22_03_B,TERNS,TB,FS_22_03_B,Blank_FS_22_03_B,1-Jul,blank,Fort stark,1,1,43.0589394,-70.7128938,,watts lab,,,,processed by genome center,,C3,,,nearshore
+2022,6,6/22/2022,,FS_22_03_D1,7_2,FS_22_03,TERNS,S,FS_22_03_D1,FS_22_03_D1,2-Jul,sample,Fort stark,2,1,43.0589394,-70.7128938,,unknown,,,,unknown,supposedly this was processed by genome center but it isnt showing up in 9/27/24 run,D3,,,nearshore
+2022,6,6/22/2022,9:25:00 AM,FS_22_03_D2,7_3,FS_22_03,TERNS,S,FS_22_03_D2,FS_22_03_D2,3-Jul,sample,Fort stark,2,1,43.0589394,-70.7128938,,watts lab,,,,processed by genome center,,E3,,,nearshore
+2022,7,7/6/2022,12:20:00 PM,FS_22_04_B,12_1,FS_22_04_B,TERNS,TB,FS_22_04_B,Blank_FS_22_04_B,1-Dec,blank,Fort stark,1,1,43.0589394,-70.7128938,,watts lab,,,,processed by genome center,,B5,,,nearshore
+2022,7,7/6/2022,,FS_22_04_D1,12_2,FS_22_04_D1,TERNS,S,FS_22_04_D1,FS_22_04_D1,2-Dec,sample,Fort stark,2,1,43.0589394,-70.7128938,,watts lab,,,,processed by genome center,,C5,,,nearshore
+2022,7,7/6/2022,12:30:00 PM,FS_22_04_D2,12_3,FS_22_04,TERNS,S,FS_22_04_D2,FS_22_04_D2,3-Dec,sample,Fort stark,2,1,43.0589394,-70.7128938,rip half way through filtering process,watts lab,,,,processed by genome center,,D5,,,nearshore
+2022,7,7/27/2022,12:35:00 PM,FS_22_05_B,29_1,FS_22_05_B,TERNS,TB,FS_22_05_B,Blank_FS_22_05_B,29-1,blank,Fort stark,1,1,43.0589394,-70.7128938,,watts lab,,1.024,14.9,processed by genome center,,E11,,,nearshore
+2022,7,7/27/2022,,FS_22_05_D1,29_2,FS_22_05,TERNS,S,FS_22_05_D1,FS_22_05_D1,29-2,sample,Fort stark,2,1,43.0589394,-70.7128938,,watts lab,,1.024,14.9,processed by genome center,,F11,,,nearshore
+2022,7,7/27/2022,,FS_22_05_D2,29_3,FS_22_05,TERNS,S,FS_22_05_D2,FS_22_05_D2,29-3,sample,Fort stark,2,1,43.0589394,-70.7128938,,watts lab,,1.024,14.9,processed by genome center,,G11,,,nearshore
+2022,7,7/27/2022,10:40:00 AM,FS_22_06_B,25_1,FS_22_06_B,TERNS,TB,FS_22_06_B,Blank_FS_22_06_B,25-1,blank,Fort stark,1,1,43.0589394,-70.7128938,,watts lab,,1.025,16,processed by genome center,,A10,,,nearshore
+2022,7,7/27/2022,,FS_22_06_D1,25_2,FS_22_06,TERNS,S,FS_22_06_D1,FS_22_06_D1,25-2,sample,Fort stark,0.75,1,43.0589394,-70.7128938,,watts lab,,1.025,16,processed by genome center,,B10,,,nearshore
+2022,7,7/27/2022,,FS_22_06_D2,25_3,FS_22_06,TERNS,S,FS_22_06_D2,FS_22_06_D2,25-3,sample,Fort stark,2,1,43.0589394,-70.7128938,,watts lab,,1.025,16,processed by genome center,,C10,,,nearshore
+2022,6,6/23/2022,11:05:00 AM,GI_22_01_B,9_1,GI_22_01_B,TERNS,TB,GI_22_01_B,Blank_GI_22_01_B,1-Sep,blank,Little bay,1,1,43.10048,-70.85778,,watts lab,eastern,,,processed by genome center,,A4,,,estuary
+2022,6,6/23/2022,,GI_22_01_D1,9_2,GI_22_01,TERNS,S,GI_22_01_D1,GI_22_01_D1,2-Sep,sample,Little bay,2,1,43.10048,-70.85778,,watts lab,eastern,,,processed by genome center,,B4,,,estuary
+2022,6,6/23/2022,11:15:00 AM,GI_22_01_D2,9_3,GI_22_01,TERNS,S,GI_22_01_D2,GI_22_01_D2,3-Sep,sample,Little bay,2,1,43.10048,-70.85778,,watts lab,eatern,,,processed by genome center,,C4,,,estuary
+2022,6,6/28/2022,11:15:00 AM,GI_22_02_B,1_1,GI_22_02_B,TERNS,TB,GI_22_02_B,Blank_GI_22_02_B,1-Jan,blank,Little bay,1,1,43.06465,-70.70883,"most of the filter paper fell while tranferring from the filter rig into the vial, but i got some of the filter into the vial",watts lab,galen,,,processed by genome center,,A1,,,estuary
+2022,6,6/28/2022,,GI_22_02_D1,1_2,GI_22_02,TERNS,S,GI_22_02_D1,GI_22_02_D1,2-Jan,sample,Little bay,2,1,43.06465,-70.70883,,watts lab,galen,,,processed by genome center,,B1,,,estuary
+2022,6,6/28/2022,11:25:00 AM,GI_22_02_D2,1_3,GI_22_02,TERNS,S,GI_22_02_D2,GI_22_02_D2,3-Jan,sample,Little bay,2,1,43.06465,-70.70883,,watts lab,galen,,,processed by genome center,,C1,,,estuary
+2022,7,7/7/2022,11:00:00 AM,GI_22_04_B,16_1,GI_22_04_B,TERNS,TB,GI_22_04_B,Blank_GI_22_04_B,16-1,blank,Little bay,1,1,43.09772,-70.85785,,watts lab,eastern,1.023,21.8,processed by genome center,,F6,,,estuary
+2022,7,7/7/2022,,GI_22_04_D1,16_2,GI_22_04,TERNS,S,GI_22_04_D1,GI_22_04_D1,16-2,sample,Little bay,2,1,43.09772,-70.85785,,watts lab,eastern,1.023,21.8,processed by genome center,,G6,,,estuary
+2022,7,7/7/2022,,GI_22_04_D2,16_3,GI_22_04,TERNS,S,GI_22_04_D2,GI_22_04_D2,16-3,sample,Little bay,2,1,43.09772,-70.85785,,watts lab,eastern,1.023,21.8,processed by genome center,,H6,,,estuary
+2022,7,7/11/2022,8:10:00 AM,GI_22_05_B,15_1,GI_22_05_B,TERNS,TB,GI_22_05_B,Blank_GI_22_05_B,15-1,blank,Piscataqua river mouth,1,1,43.0771,-70.71584,,watts lab,galen,1.025,14,processed by genome center,,C6,,,nearshore
+2022,7,7/11/2022,,GI_22_05_D1,15_2,GI_22_05,TERNS,S,GI_22_05_D1,GI_22_05_D1,15-2,sample,Piscataqua river mouth,2,1,43.0771,-70.71584,,watts lab,galen,1.025,14,processed by genome center,,D6,,,nearshore
+2022,7,7/11/2022,8:15:00 AM,GI_22_05_D2,15_3,GI_22_05,TERNS,S,GI_22_05_D2,GI_22_05_D2,15-3,sample,Piscataqua river mouth,2,1,43.0771,-70.71584,,watts lab,galen,1.025,14,processed by genome center,,E6,,,nearshore
+2022,7,7/14/2022,,GI_22_06_B,18_1,GI_22_06_B,TERNS,TB,GI_22_06_B,Blank_GI_22_06_B,18-1,blank,Little bay,1,1,43.09071,-70.86226,,watts lab,eastern,1.023,22.7,processed by genome center,,D7,,,estuary
+2022,7,7/14/2022,,GI_22_06_D1,18_2,GI_22_06,TERNS,S,GI_22_06_D1,GI_22_06_D1,18-2,sample,Little bay,2,1,43.09071,-70.86226,,watts lab,eastern,1.023,22.7,processed by genome center,,E7,,,estuary
+2022,7,7/14/2022,,GI_22_06_D2,18_3,GI_22_06,TERNS,S,GI_22_06_D2,GI_22_06_D2,18-3,sample,Little bay,2,1,43.09071,-70.86226,,watts lab,eastern,1.023,22.7,processed by genome center,,F7,,,estuary
+2022,7,7/21/2022,10:15:00 AM,GI_22_07_B,21_1,GI_22_07_B,TERNS,TB,GI_22_07_B,Blank_GI_22_07_B,21-1,blank,Little bay,1,1,43.09984,-70.85797,,watts lab,eastern,1.023,21.7,processed by genome center,,E8,,,estuary
+2022,7,7/21/2022,,GI_22_07_D1,21_2,GI_22_07,TERNS,S,GI_22_07_D1,GI_22_07_D1,21-2,sample,Little bay,2,1,43.09984,-70.85797,,watts lab,eastern,1.023,21.7,processed by genome center,,F8,,,estuary
+2022,7,7/21/2022,,GI_22_07_D2,21_3,GI_22_07,TERNS,S,GI_22_07_d2,GI_22_07_d2,21-3,sample,Little bay,2,1,43.09984,-70.85797,,watts lab,eastern,1.023,21.7,processed by genome center,,G8,,,estuary
+2022,7,7/26/2022,9:34:00 AM,GI_22_08_B,22_1,GI_22_08_B,TERNS,TB,GI_22_08_B,Blank_GI_22_08_B,22-1,blank,Piscataqua river mouth,1,1,43.07702,-70.71194,SC processed,watts lab,galen,1.025,14.9,processed by genome center,,H8,,,nearshore
+2022,7,7/26/2022,,GI_22_08_D1,22_2,GI_22_08,TERNS,S,GI_22_08_D1,GI_22_08_D1,22-2,sample,Piscataqua river mouth,2,1,43.07702,-70.71194,SC processed,watts lab,galen,1.025,14.9,processed by genome center,,A9,,,nearshore
+2022,7,7/26/2022,9:48:00 AM,GI_22_08_D2,22_3,GI_22_08,TERNS,S,GI_22_08_D2,GI_22_08_D2,22-3,sample,Piscataqua river mouth,2,1,43.07702,-70.71194,SC processed,watts lab,galen,1.025,14.9,processed by genome center,,B9,,,nearshore
+2022,7,7/28/2022,12:30:00 PM,GI_22_09_B,24_1,GI_22_09_B,TERNS,TB,GI_22_09_B,Blank_GI_22_09_B,24-1,blank,Little bay,1,1,43.095833,-70.859444,SC processed,watts lab,limulus,1.023,22.2,processed by genome center,,F9,,,estuary
+2022,7,7/28/2022,,GI_22_09_D1,24_2,GI_22_09,TERNS,S,GI_22_09_D1,GI_22_09_D1,24-2,sample,Little bay,2,1,43.095833,-70.859444,SC processed,watts lab,limulus,1.023,22.2,processed by genome center,,G9,,,estuary
+2022,7,7/28/2022,,GI_22_09_D2,24_3,GI_22_09,TERNS,S,GI_22_09_D2,GI_22_09_D2,24-3,sample,Little bay,2,1,43.095833,-70.859444,SC processed,watts lab,limulus,1.023,22.2,processed by genome center,,H9,,,estuary
+2022,7,7/28/2022,10:20:00 AM,GI_22_12_B,28_1,GI_22_12_B,TERNS,TB,GI_22_12_B,Blank_GI_22_12_B,28-1,blank,Piscataqua river mouth,1,1,43.07593,-70.72022,,watts lab,galen,1.024,18.7,processed by genome center,,B11,,,nearshore
+2022,7,7/28/2022,,GI_22_12_D1,28_2,GI_22_12,TERNS,S,GI_22_12_D1,GI_22_12_D1,28-2,sample,Piscataqua river mouth,2,1,43.07593,-70.72022,small puncture in filter,watts lab,galen,1.024,18.7,processed by genome center,,C11,,,nearshore
+2022,7,7/28/2022,,GI_22_12_D2,28_3,GI_22_12,TERNS,S,GI_22_12_D2,GI_22_12_D2,28-3,sample,Piscataqua river mouth,2,1,43.07593,-70.72022,,watts lab,galen,1.024,18.7,processed by genome center,,D11,,,nearshore
+2023,8,8/30/2023,10:14,MBME_1D0830231,MBMEw1D0830231MF,MBME_1D083023,MBME,D,,,,sample,ME1,5,,43.6034,-70.1616,,watts lab,merlin,,,processed by genome center,,,88.5826773,82.0209975,offshore
+2023,8,8/30/2023,10:22,MBME_1D0830232,MBMEw1D0830232MF,MBME_1D083023,MBME,D,,,,sample,ME1,5,,43.6039,-70.1598,,watts lab,merlin,,,processed by genome center,,,88.5826773,82.0209975,offshore
+2023,8,8/30/2023,10:30,MBME_1D0830233,MBMEw1D0830233MF,MBME_1D083023,MBME,D,,,,sample,ME1,5,,43.60355,-70.159,,watts lab,merlin,,,processed by genome center,,,88.5826773,82.0209975,offshore
+2023,9,9/28/2023,14:17,MBME_1D0928231,MBMEw1D0928231MF,MBME_1D092823,MBME,D,,,,sample,ME1,5,,43.6035,-70.16021,,watts lab,merlin,,,processed by genome center,,,75.45932,72.17848,offshore
+2023,9,9/28/2023,14:25,MBME_1D0928232,MBMEw1D0928232MF,MBME_1D092823,MBME,D,,,,sample,ME1,5,,43.6031,-70.16007,,watts lab,merlin,,,processed by genome center,,,72.17848,68.89764,offshore
+2023,9,9/28/2023,14:30,MBME_1D0928233,MBMEw1D0928233MF,MBME_1D092823,MBME,D,,,,sample,ME1,5,,43.603,-70.16009,,watts lab,merlin,,,processed by genome center,,,72.17848,68.89764,offshore
+2023,8,8/30/2023,10:14,MBME_1S0830231,MBMEw1S0830231MF,MBME_1S083023,MBME,S,,,,sample,ME1,5,,43.6034,-70.1616,"surface samples taken using deck hose for 8/30 samples, heavy rain during trip",watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,8,8/30/2023,10:22,MBME_1S0830232,MBMEw1S0830232MF,MBME_1S083023,MBME,S,,,,sample,ME1,5,,43.6039,-70.1598,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,8,8/30/2023,10:30,MBME_1S0830233,MBMEw1S0830233MF,MBME_1S083023,MBME,S,,,,sample,ME1,5,,43.60355,-70.159,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,8,8/30/2023,,MBME_1S083023TB,MBMEw1083023TBMF,MBME_1083023TB,MBME,TB,MBME_1S083023TB,,,blank,ME1,1,,,,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/28/2023,14:17,MBME_1S0928231,MBMEw1S0928231MF,MBME_1S092823,MBME,S,,,,sample,ME1,5,,43.6035,-70.16021,,watts lab,merlin,,,processed by genome center,,,75.45932,72.17848,offshore
+2023,9,9/28/2023,14:25,MBME_1S0928232,MBMEw1S0928232MF,MBME_1S092823,MBME,S,,,,sample,ME1,5,,43.6031,-70.16007,,watts lab,merlin,,,processed by genome center,,,72.17848,68.89764,offshore
+2023,9,9/28/2023,14:30,MBME_1S0928233,MBMEw1S9028233MF,MBME_1S092823,MBME,S,,,,sample,ME1,5,,43.603,-70.16009,,unknown,merlin,,,processed by genome center,not present in most recent output; sample ID was input as a guess based on other sample IDs rather than directly grabbed from the bioinformatics output metadata,,72.17848,68.89764,offshore
+2023,9,9/28/2023,,MBME_1S092823TB,MBMEw1092823TBMF,MBME_1092823TB,MBME,TB,MBME_1S092823TB,,,blank,ME1,1,,,,"Filter notes: ran out of filters for trip, froze samples that were unfiltered 9/29. Prioritized filter use so that all sites had fresh samples.",,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,9:40,MBME_2D0901231,MBMEw2D0901231MF,MBME_2D090123,MBME,D,,,,sample,ME2,5,,43.58674,-70.14611,,watts lab,merlin,,,processed by genome center,,,85.3018374,82.0209975,offshore
+2023,9,9/1/2023,9:46,MBME_2D0901232,MBMEw2D0901232MF,MBME_2D090123,MBME,D,,,,sample,ME2,5,,43.58702,-70.14435,,watts lab,merlin,,,processed by genome center,,,75.4593177,68.8976379,offshore
+2023,9,9/1/2023,9:54,MBME_2D0901233,MBMEw2D0901233MF,MBME_2D090123,MBME,D,,,,sample,ME2,5,,43.58693,-70.14516,,watts lab,merlin,,,processed by genome center,,,95.1443571,88.5826773,offshore
+2023,9,9/28/2023,13:48,MBME_2D0928231,MBMEw2D0928231MF,MBME_2D092823,MBME,D,,,,sample,ME2,5,,43.5868,-70.14483,,watts lab,merlin,,,processed by genome center,,,85.30184,82.021,offshore
+2023,9,9/28/2023,13:56,MBME_2D0928232,MBMEw2D0928232MF,MBME_2D092823,MBME,D,,,,sample,ME2,5,,43.5868,-70.1483,,watts lab,merlin,,,processed by genome center,,,85.30184,82.021,offshore
+2023,9,9/28/2023,14:06,MBME_2D0928233,MBMEw2D0928233MF,MBME_2D092823,MBME,D,,,,sample,ME2,5,,43.5868,-70.14499,,watts lab,merlin,,,processed by genome center,,,85.30184,82.021,offshore
+2023,9,9/1/2023,9:40,MBME_2S0901231,MBMEw2S0901231MF,MBME_2S090123,MBME,S,,,,sample,ME2,5,,43.58674,-70.14611,jigged cod at site (no fish came in contact with any sampling equipment/no person touching fish handled any sample),watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,9:46,MBME_2S0901232,MBMEw2S0901232MF,MBME_2S090123,MBME,S,,,,sample,ME2,5,,43.58702,-70.14435,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,9:54,MBME_2S0901233,MBMEw2S0901233MF,MBME_2S090123,MBME,S,,,,sample,ME2,5,,43.58693,-70.14516,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,,MBME_2S090123TB,MBMEw2090123TBMF,MBME_2090123TB,MBME,TB,MBME_2S090123TB,,,blank,ME2,1,,,,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/28/2023,13:48,MBME_2S0928231,MBMEw2S0928231MF,MBME_2S092823,MBME,S,,,,sample,ME2,5,,43.5868,-70.14483,"3.4L filtered 9/29, 1.6L frozen and filtered 10/4",watts lab,merlin,,,processed by genome center,,,85.30184,82.021,offshore
+2023,9,9/28/2023,13:56,MBME_2S0928232,MBMEw2S0928232MF,MBME_2S092823,MBME,S,,,,sample,ME2,5,,43.5868,-70.1483,"3.4L filtered 9/29, 1.6L frozen and filtered 10/4",watts lab,merlin,,,processed by genome center,,,85.30184,82.021,offshore
+2023,9,9/28/2023,14:06,MBME_2S0928233,MBMEw2S0928233MF,MBME_2S092823,MBME,S,,,,sample,ME2,5,,43.5868,-70.14499,,watts lab,merlin,,,processed by genome center,,,85.30184,82.021,offshore
+2023,9,9/28/2023,,MBME_2S092823TB,MBMEw2092823TBMF,MBME_2092823TB,MBME,TB,MBME_2S092823TB,,,blank,ME2,1,,,,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,8:55,MBME_3D0901231,MBMEw3D0901231MF,MBME_3D090123,MBME,D,,,,sample,ME3,5,,43.56821,-70.12908,jigged pollock at site,watts lab,merlin,,,processed by genome center,,,62.3359581,55.7742783,offshore
+2023,9,9/1/2023,9:03,MBME_3D0901232,MBMEw3D0901232MF,MBME_3D090123,MBME,D,,,,sample,ME3,5,,43.56838,-70.12895,"caught ME8 passive acoustic receiver with the Niskin, new location for ME8 is 43.56864, -7012892",watts lab,merlin,,,processed by genome center,,,55.7742783,52.4934384,offshore
+2023,9,9/1/2023,9:25,MBME_3D0901233,MBMEw3D0901233MF,MBME_3D090123,MBME,D,,,,sample,ME3,5,,43.5685,-70.12812,,watts lab,merlin,,,processed by genome center,,,49.2125985,45.9317586,offshore
+2023,9,9/28/2023,13:15,MBME_3D0928231,MBMEw3D0928231MF,MBME_3D092823,MBME,D,,,,sample,ME3,5,,43.5685,-70.12884,,watts lab,merlin,,,processed by genome center,,,49.2126,45.93176,offshore
+2023,9,9/28/2023,13:20,MBME_3D0928232,MBMEw3D0928232MF,MBME_3D092823,MBME,D,,,,sample,ME3,5,,43.5678,-70.12854,,watts lab,merlin,,,processed by genome center,,,49.2126,45.93176,offshore
+2023,9,9/28/2023,13:32,MBME_3D0928233,MBMEw3D0928233MF,MBME_3D092823,MBME,D,,,,sample,ME3,5,,43.5684,-70.12819,,watts lab,merlin,,,processed by genome center,,,49.2126,45.93176,offshore
+2023,9,9/1/2023,8:55,MBME_3S0901231,MBMEw3S0901231MF,MBME_3S090123,MBME,S,,,,sample,ME3,5,,43.56821,-70.12908,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,9:03,MBME_3S0901232,MBMEw320901232MF,MBME_3S090123,MBME,S,,,,sample,ME3,5,,43.56838,-70.12895,,unknown,merlin,,,processed by genome center,not present in most recent output; sample ID was input as a guess based on other sample IDs rather than directly grabbed from the bioinformatics output metadata,,,,offshore
+2023,9,9/1/2023,9:25,MBME_3S0901233,MBMEw3S0901233MF,MBME_3S090123,MBME,S,,,,sample,ME3,5,,43.5685,-70.12812,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,,MBME_3S090123TB,MBMEw3090123TBMF,MBME_3090123TB,MBME,TB,MBME_3S090123TB,,,blank,ME3,1,,,,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/28/2023,13:15,MBME_3S0928231,MBMEw3S0928231MF,MBME_3S092823,MBME,S,,,,sample,ME3,5,,43.5685,-70.12884,"3.75L filtered 9/29, 1.25L frozen and filtred 10/4",watts lab,merlin,,,processed by genome center,,,49.2126,45.93176,offshore
+2023,9,9/28/2023,13:20,MBME_3S0928232,MBMEw3S0928232MF,MBME_3S092823,MBME,S,,,,sample,ME3,5,,43.5678,-70.12854,"2.65L filtered 9/29, 2.35L frozen and filtered 10/4",watts lab,merlin,,,processed by genome center,,,49.2126,45.93176,offshore
+2023,9,9/28/2023,13:32,MBME_3S0928233,MBMEw3S0928233MF,MBME_3S092823,MBME,S,,,,sample,ME3,5,,43.5684,-70.12819,,watts lab,merlin,,,processed by genome center,,,49.2126,45.93176,offshore
+2023,9,9/28/2023,,MBME_3S092823TB,MBMEw3092823TBMF,MBME_3092823TB,MBME,TB,MBME_3S092823TB,,,blank,ME3,1,,,,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,8:14,MBME_4D0901231,MBMEw4D0901231MF,MBME_4D090123,MBME,D,,,,sample,ME4,5,,43.55088,-70.11199,,watts lab,merlin,,,processed by genome center,,,75.4593177,65.616798,offshore
+2023,9,9/1/2023,8:28,MBME_4D0901232,MBMEw4D0901232MF,MBME_4D090123,MBME,D,,,,sample,ME4,5,,43.55084,-70.1118,jigged mackerel and pollock at site,watts lab,merlin,,,processed by genome center,,,75.4593177,72.1784778,offshore
+2023,9,9/1/2023,8:44,MBME_4D0901233,MBMEw4D0901233MF,MBME_4D090123,MBME,D,,,,sample,ME4,5,,43.55117,-70.11203,jigged mackerel at site,watts lab,merlin,,,processed by genome center,,,78.7401576,72.1784778,offshore
+2023,9,9/28/2023,12:41,MBME_4D0928231,MBMEw4D0928231MF,MBME_4D092823,MBME,D,,,,sample,ME4,5,,43.5508,-70.11179,,watts lab,merlin,,,processed by genome center,,,82.021,78.74016,offshore
+2023,9,9/28/2023,12:46,MBME_4D0928232,MBMEw4D0928232MF,MBME_4D092823,MBME,D,,,,sample,ME4,5,,43.5511,-70.11181,,watts lab,merlin,,,processed by genome center,,,82.021,78.74016,offshore
+2023,9,9/28/2023,12:52,MBME_4D0928233,MBMEw4D0928233MF,MBME_4D092823,MBME,D,,,,sample,ME4,5,,43.5507,-70.11175,,watts lab,merlin,,,processed by genome center,,,82.021,78.74016,offshore
+2023,9,9/1/2023,8:14,MBME_4S0901231,MBMEw4S0901231MF,MBME_4S090123,MBME,S,,,,sample,ME4,5,,43.55088,-70.11199,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,8:28,MBME_4S0901232,MBMEw4S0901232MF,MBME_4S090123,MBME,S,,,,sample,ME4,5,,43.55084,-70.1118,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,8:44,MBME_4S0901233,MBMEw4S0901233MF,MBME_4S090123,MBME,S,,,,sample,ME4,5,,43.55117,-70.11203,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,,MBME_4S090123TB,MBMEw4090123TBMF,MBME_4090123TB,MBME,TB,MBME_4S090123TB,,,blank,ME4,1,,,,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/28/2023,12:41,MBME_4S0928231,MBMEw4S0928231MF,MBME_4S092823,MBME,S,,,,sample,ME4,5,,43.5508,-70.11179,,watts lab,merlin,,,processed by genome center,,,82.021,78.74016,offshore
+2023,9,9/28/2023,12:46,MBME_4S0928232,MBMEw4S0928232MF,MBME_4S092823,MBME,S,,,,sample,ME4,5,,43.5511,-70.11181,,watts lab,merlin,,,processed by genome center,,,82.021,78.74016,offshore
+2023,9,9/28/2023,12:52,MBME_4S0928233,MBMEw4S0928233MF,MBME_4S092823,MBME,S,,,,sample,ME4,5,,43.5507,-70.11175,,watts lab,merlin,,,processed by genome center,,,82.021,78.74016,offshore
+2023,9,9/28/2023,,MBME_4S092823TB,MBMEw4092823TBMF,MBME_4092823TB,MBME,TB,MBME_4S092823TB,,,blank,ME4,1,,,,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,8,8/30/2023,10:53,MBME_5D0830231,MBMEw5D0830231MF,MBME_5D083023,MBME,D,,,,sample,ME5,5,,43.53367,-70.09995,,watts lab,merlin,,,processed by genome center,,,187.0078743,187.0078743,offshore
+2023,8,8/30/2023,11:06,MBME_5D0830232,MBMEw5D0830232MF,MBME_5D083023,MBME,D,,,,sample,ME5,5,,43.53427,-70.09836,"drifted a little deeper while waiting to deploy messenger, ended trip early due to lightning",watts lab,merlin,,,processed by genome center,,,177.1653546,157.4803152,offshore
+2023,9,9/1/2023,7:52,MBME_5D0901233,MBMEw5D0901233MF,MBME_5D090123,MBME,D,,,,sample,ME5,5,,43.53584,-70.09914,,unknown,merlin,,,processed by genome center,not present in most recent output; sample ID was input as a guess based on other sample IDs rather than directly grabbed from the bioinformatics output metadata,,170.6036748,164.041995,offshore
+2023,9,9/28/2023,12:10,MBME_5D0928231,MBMEw5D0928231MF,MBME_5D092823,MBME,D,,,,sample,ME5,5,,43.5341,-70.09801,,watts lab,merlin,,,processed by genome center,,,164.042,160.76116,offshore
+2023,9,9/28/2023,12:19,MBME_5D0928232,MBMEw5D0928232MF,MBME_5D092823,MBME,D,,,,sample,ME5,5,,43.5345,-70.09792,,watts lab,merlin,,,processed by genome center,,,164.042,160.76116,offshore
+2023,9,9/28/2023,12:25,MBME_5D0928233,MBMEw5D0928233MF,MBME_5D092823,MBME,D,,,,sample,ME5,5,,43.5346,-70.09822,"only 2.5L filtered (Sample frozen 9/29/23 and thawed/filtered 10/4/23, nalgene cracked in freezer)",watts lab,merlin,,,processed by genome center,,,164.042,160.76116,offshore
+2023,8,8/30/2023,10:53,MBME_5S0830231,MBMEw5S0830231MF,MBME_5S083023,MBME,S,,,,sample,ME5,5,,43.53367,-70.09995,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,8,8/30/2023,11:06,MBME_5S0830232,MBMEw5S0830232MF,MBME_5S083023,MBME,S,,,,sample,ME5,5,,43.53427,-70.09836,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/1/2023,7:52,MBME_5S0901233,MBMEw5S0901233MF,MBME_5S090123,MBME,S,,,,sample,ME5,5,,43.53584,-70.09914,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,,,MBME_5S090123TB,MBMEw5090123TBMF,MBME_5090123TB,MBME,TB,MBME_5S090123TB,,,blank,ME5,1,,,,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,9,9/28/2023,12:10,MBME_5S0928231,MBMEw5S0928231MF,MBME_5S092823,MBME,S,,,,sample,ME5,5,,43.5341,-70.09801,,watts lab,merlin,,,processed by genome center,,,164.042,160.76116,offshore
+2023,9,9/28/2023,12:19,MBME_5S0928232,MBMEw5S0928232MF,MBME_5S092823,MBME,S,,,,sample,ME5,5,,43.5345,-70.09792,,watts lab,merlin,,,processed by genome center,,,164.042,160.76116,offshore
+2023,9,9/28/2023,12:25,MBME_5S0928233,MBMEw5S0928233MF,MBME_5S092823,MBME,S,,,,sample,ME5,5,,43.5346,-70.09822,,watts lab,merlin,,,processed by genome center,,,164.042,160.76116,offshore
+2023,9,9/28/2023,,MBME_5S092823TB,MBMEw5092823TBMF,MBME_5092823TB,MBME,TB,MBME_5S092823TB,,,blank,ME5,1,,,,,watts lab,merlin,,,processed by genome center,,,,,offshore
+2023,7,7/11/2023,9:00,MBNH_1071223TB,MBNHw1071223TB,MBNH_1071223TB,MBNH,TB,,,,blank,NH1,1,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,8,8/16/2023,9:00,MBNH_1081623TB,MBNHw1081623TB,MBNH_1081623TB,MBNH,TB,,,,blank,NH1,1,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,9,9/18/2023,1:54,MBNH_1091823TB,MBNHw1091823TBMF,MBNH_1091823TB,MBNH,TB,,,,blank,NH1,1,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,6,6/7/2023,8:56,MBNH_160723TB,MBNH60723TB1,MBNH_160723TB,MBNH,TB,,,,blank,NH1,1,,43.013016,-70.653003,location approximate,watts lab,galen,,,processed by genome center,,,na,na,offshore
+2023,7,7/11/2023,9:00,MBNH_1D0712231,MBNHw1D0712231,MBNH_1D071223,MBNH,D,,,,sample,NH1,5,,43.01148,-70.65379,,watts lab,galen,,,processed by genome center,,,90,80,offshore
+2023,7,7/11/2023,9:14,MBNH_1D0712232,MBNHw1D0712232,MBNH_1D071223,MBNH,D,,,,sample,NH1,5,,43.01227,-70.65269,,watts lab,galen,,,processed by genome center,,,83,75,offshore
+2023,7,7/11/2023,9:32,MBNH_1D0712233,MBNHw1D0712233,MBNH_1D071223,MBNH,D,,,,sample,NH1,5,,43.01235,-70.65212,,watts lab,galen,,,processed by genome center,,,84,75,offshore
+2023,8,8/16/2023,9:05,MBNH_1D0816231,MBNHw1D0816231MF,MBNH_1D081623,MBNH,D,,,,sample,NH1,5,,43.01375,-70.6549,,watts lab,galen,,,processed by genome center,,,75,65,offshore
+2023,8,8/16/2023,9:21,MBNH_1D0816232,MBNHw1D0816232,MBNH_1D081623,MBNH,D,,,,sample,NH1,5,,43.01277,-70.65262,,watts lab,galen,,,processed by genome center,,,82,75,offshore
+2023,8,8/16/2023,9:43,MBNH_1D0816233,MBNHw1D0816233,MBNH_1D081623,MBNH,D,,,,sample,NH1,5,,43.01318,-70.65238,,watts lab,galen,,,processed by genome center,,,84,75,offshore
+2023,9,9/18/2023,2:03,MBNH_1D0918231,MBNHw1D0918231MF,MBNH_1D091823,MBNH,D,,,,sample,NH1,5,,43.01307,-70.65279,,watts lab,galen,,,processed by genome center,,,85,75,offshore
+2023,9,9/18/2023,2:23,MBNH_1D0918232,MBNHw1D0918232MF,MBNH_1D091823,MBNH,D,,,,sample,NH1,5,,43.013,-70.65295,,watts lab,galen,,,processed by genome center,,,85,75,offshore
+2023,9,9/18/2023,2:43,MBNH_1D0918233,MBNHw1D0918233MF,MBNH_1D091823,MBNH,D,,,,sample,NH1,5,,43.01297,-70.65311,,watts lab,galen,,,processed by genome center,,,81,70,offshore
+2023,6,6/7/2023,9:53,MBNH_1D607231,MBNH6072311D,MBNH_1D60723,MBNH,D,,,,sample,NH1,5,,43.013016,-70.653003,location approximate,watts lab,galen,,,processed by genome center,,,75,70,offshore
+2023,6,6/7/2023,10:20,MBNH_1D607232,MBNH6072321D,MBNH_1D60723,MBNH,D,,,,sample,NH1,5,,43.013016,-70.653003,location approximate,watts lab,galen,,,processed by genome center,,,84,70,offshore
+2023,6,6/7/2023,10:35,MBNH_1D607233,MBNH6072331D,MBNH_1D60723,MBNH,D,,,,sample,NH1,5,,43.01191,-70.64919,filter fell into surface water while transferring into vial,watts lab,galen,,,processed by genome center,,,85,70,offshore
+2023,7,7/11/2023,9:00,MBNH_1S0712231,MBNHw1S0712231,MBNH_1S071223,MBNH,S,,,,sample,NH1,5,,43.01159,-70.65369,,watts lab,galen,,,processed by genome center,,,90,,offshore
+2023,7,7/11/2023,9:23,MBNH_1S0712232,MBNHw1S0712232,MBNH_1S071223,MBNH,S,,,,sample,NH1,5,,43.01159,-70.65267,,watts lab,galen,,,processed by genome center,,,90,,offshore
+2023,7,7/11/2023,9:40,MBNH_1S0712233,MBNHw1S0712233,MBNH_1S071223,MBNH,S,,,,sample,NH1,5,,43.01173,-70.65211,,watts lab,galen,,,processed by genome center,,,90,,offshore
+2023,8,8/16/2023,9:02,MBNH_1S0816231,MBNHw1S0816231,MBNH_1S081623,MBNH,S,,,,sample,NH1,5,,43.01324,-70.65462,,watts lab,galen,,,processed by genome center,,,83,,offshore
+2023,8,8/16/2023,9:31,MBNH_1S0816232,MBNHw1S0816232,MBNH_1S081623,MBNH,S,,,,sample,NH1,5,,43.01298,-70.65494,,watts lab,galen,,,processed by genome center,,,93,,offshore
+2023,8,8/16/2023,9:47,MBNH_1S0816233,MBNHw1S0816233,MBNH_1S081623,MBNH,S,,,,sample,NH1,5,,43.01326,-70.65424,,watts lab,galen,,,processed by genome center,,,79,,offshore
+2023,9,9/18/2023,1:59,MBNH_1S0918231,MBNHw1S0918231MF,MBNH_1S091823,MBNH,S,,,,sample,NH1,5,,43.01413,-70.65456,,watts lab,galen,,,processed by genome center,,,89,,offshore
+2023,9,9/18/2023,2:10,MBNH_1S0918232,MBNHw1S0918232MF,MBNH_1S091823,MBNH,S,,,,sample,NH1,5,,43.01435,-70.65446,,watts lab,galen,,,processed by genome center,,,86,,offshore
+2023,9,9/18/2023,2:20,MBNH_1S0918233,MBNHw1S0918233MF,MBNH_1S091823,MBNH,S,,,,sample,NH1,5,,43.01319,-70.65313,,watts lab,galen,,,processed by genome center,,,82,,offshore
+2023,6,6/7/2023,9:05,MBNH_1S607231,MBNH6072311S,MBNH_1S60723,MBNH,S,,,,sample,NH1,5,,43.013016,-70.653003,location approximate,watts lab,galen,,,processed by genome center,,,75,na,offshore
+2023,6,6/7/2023,,MBNH_1S607232,MBNH6072321S,MBNH_1S60723,MBNH,S,,,,sample,NH1,5,,43.013016,-70.653003,location approximate,watts lab,galen,,,processed by genome center,,,75,na,offshore
+2023,6,6/7/2023,9:35,MBNH_1S607233,MBNH6072331S,MBNH_1S60723,MBNH,S,,,,sample,NH1,5,,43.013016,-70.653003,location approximate,watts lab,galen,,,processed by genome center,,,75,na,offshore
+2023,7,7/11/2023,14:47,MBNH_2071223TB,MBNHw2071223TB,MBNH_2071223TB,MBNH,TB,,,,blank,NH2,1,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,8,8/16/2023,10:18,MBNH_2081623TB,MBNHw2081623TB,MBNH_2081623TB,MBNH,TB,,,,blank,NH2,1,,43.00663,-70.6375,,watts lab,galen,,,processed by genome center,,,104,,offshore
+2023,9,9/18/2023,12:45,MBNH_2091823TB,MBNHw2091823TBMF,MBNH_2091823TB,MBNH,TB,,,,blank,NH2,1,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,6,6/7/2023,10:51,MBNH_260723TB,MBNH60723TB2,MBNH_260723TB,MBNH,TB,,,,blank,NH2,1,,43.00666,-70.63717,,watts lab,galen,,,processed by genome center,,,na,na,offshore
+2023,7,7/11/2023,14:50,MBNH_2D0712231,MBNHw2D0712231,MBNH_2D071223,MBNH,D,,,,sample,NH2,5,,43.0074,-70.63733,,watts lab,galen,,,processed by genome center,,,100,90,offshore
+2023,7,7/11/2023,15:07,MBNH_2D0712232,MBNHw2D0712232,MBNH_2D071223,MBNH,D,,,,sample,NH2,5,,43.00807,-70.63396,,watts lab,galen,,,processed by genome center,,,105,90,offshore
+2023,7,7/11/2023,15:35,MBNH_2D0712233,MBNHw2D0712233,MBNH_2D071223,MBNH,D,,,,sample,NH2,5,,43.00887,-70.63758,,watts lab,galen,,,processed by genome center,,,99,90,offshore
+2023,8,8/16/2023,10:23,MBNH_2D0816231,MBNHw2D0816231,MBNH_2D081623,MBNH,D,,,,sample,NH2,5,,43.00663,-70.6375,,watts lab,galen,,,processed by genome center,,,103,90,offshore
+2023,8,8/16/2023,10:49,MBNH_2D0816232,MBNHw2D0816232,MBNH_2D081623,MBNH,D,,,,sample,NH2,5,,43.00678,-70.63685,,watts lab,galen,,,processed by genome center,,,97,90,offshore
+2023,8,8/16/2023,11:06,MBNH_2D0816233,MBNHw2D0816233,MBNH_2D081623,MBNH,D,,,,sample,NH2,5,,43.0068,-70.63785,,watts lab,galen,,,processed by genome center,,,110,100,offshore
+2023,9,9/18/2023,12:50,MBNH_2D0918231,MBNHw2D0918231MF,MBNH_2D091823,MBNH,D,,,,sample,NH2,5,,43.00665,-70.63765,,watts lab,galen,,,processed by genome center,,,100,90,offshore
+2023,9,9/18/2023,1:14,MBNH_2D0918232,MBNHw2D0918232MF,MBNH_2D091823,MBNH,D,,,,sample,NH2,5,,43.00712,-70.63673,,watts lab,galen,,,processed by genome center,,,101,90,offshore
+2023,9,9/18/2023,1:35,MBNH_2D0918233,MBNHw2D0918233MF,MBNH_2D091823,MBNH,D,,,,sample,NH2,5,,43.00679,-70.63669,,watts lab,galen,,,processed by genome center,,,100,90,offshore
+2023,6,6/7/2023,11:21,MBNH_2D607231,MBNH6072312D,MBNH_2D60723,MBNH,D,,,,sample,NH2,5,,43.00473,-70.63414,,watts lab,galen,,,processed by genome center,,,105,80,offshore
+2023,6,6/7/2023,11:36,MBNH_2D607232,MBNH6072322D,MBNH_2D60723,MBNH,D,,,,sample,NH2,5,,43.00679,-70.63584,,watts lab,galen,,,processed by genome center,,,97,80,offshore
+2023,6,6/7/2023,11:54,MBNH_2D607233,MBNH6072332D,MBNH_2D60723,MBNH,D,,,,sample,NH2,5,,43.00531,-70.63521,,watts lab,galen,,,processed by genome center,,,90,80,offshore
+2023,7,7/11/2023,14:47,MBNH_2S0712231,MBNHw2S0712231,MBNH_2S071223,MBNH,S,,,,sample,NH2,5,,43.006735,-70.6373,,watts lab,galen,,,processed by genome center,,,100,,offshore
+2023,7,7/11/2023,15:19,MBNH_2S0712232,MBNHw2S0712232,MBNH_2S071223,MBNH,S,,,,sample,NH2,5,,43.00698,-70.63697,,watts lab,galen,,,processed by genome center,,,100,,offshore
+2023,7,7/11/2023,15:36,MBNH_2S0712233,MBNHw2S0712233,MBNH_2S071223,MBNH,S,,,,sample,NH2,5,,43.00703,-70.63705,,watts lab,galen,,,processed by genome center,,,100,,offshore
+2023,8,8/16/2023,10:15,MBNH_2S0816231,MBNHw2S0816231,MBNH_2S081623,MBNH,S,,,,sample,NH2,5,,43.00663,-70.6375,,watts lab,galen,,,processed by genome center,,,104,,offshore
+2023,8,8/16/2023,10:29,MBNH_2S0816232,MBNHw2S0816232,MBNH_2S081623,MBNH,S,,,,sample,NH2,5,,43.00672,-70.63754,,watts lab,galen,,,processed by genome center,,,106,,offshore
+2023,8,8/16/2023,11:00,MBNH_2S0816233,MBNHw2S0816233,MBNH_2S081623,MBNH,S,,,,sample,NH2,5,,43.00681,-70.63759,,watts lab,galen,,,processed by genome center,,,110,,offshore
+2023,9,9/18/2023,12:50,MBNH_2S0918231,MBNHw2S0918231MF,MBNH_2S091823,MBNH,S,,,,sample,NH2,5,,43.00665,-70.63765,,watts lab,galen,,,processed by genome center,,,100,,offshore
+2023,9,9/18/2023,1:08,MBNH_2S0918232,MBNHw2S0918232MF,MBNH_2S091823,MBNH,S,,,,sample,NH2,5,,43.00641,-70.63792,,watts lab,galen,,,processed by genome center,,,98,,offshore
+2023,9,9/18/2023,1:20,MBNH_2S0918233,MBNHw2S0918233MF,MBNH_2S091823,MBNH,S,,,,sample,NH2,5,,43.00736,-70.637,,watts lab,galen,,,processed by genome center,,,108,,offshore
+2023,6,6/7/2023,11:02,MBNH_2S607231,MBNH6072312S,MBNH_2S60723,MBNH,S,,,,sample,NH2,5,,43.00666,-70.63717,,watts lab,galen,,,processed by genome center,,,~105,na,offshore
+2023,6,6/7/2023,11:16,MBNH_2S607232,MBNH6072322S,MBNH_2S60723,MBNH,S,,,,sample,NH2,5,,43.00794,-70.63661,,watts lab,galen,,,processed by genome center,,,~97,na,offshore
+2023,6,6/7/2023,11:33,MBNH_2S607233,MBNH6072332S,MBNH_2S60723,MBNH,S,,,,sample,NH2,5,,43.0056,-70.63364,,watts lab,galen,,,processed by genome center,,,~90,na,offshore
+2023,7,7/11/2023,13:27,MBNH_3071223TB,MBNHw3071223TB,MBNH_3071223TB,MBNH,TB,,,,blank,NH3,1,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,8,8/16/2023,11:38,MBNH_3081623TB,MBNHw3081623TB,MBNH_3081623TB,MBNH,TB,,,,blank,NH3,1,,42.99989,-70.61974,,watts lab,galen,,,processed by genome center,,,84,,offshore
+2023,9,9/18/2023,11:30,MBNH_3091823TB,MBNHw3091823TBMF,MBNH_3091823TB,MBNH,TB,,,,blank,NH3,1,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,6,6/7/2023,12:13,MBNH_360723TB,MBNH60723TB3,MBNH_360723TB,MBNH,TB,,,,blank,NH3,1,,42.99797,-70.61761,,watts lab,galen,,,processed by genome center,,,na,na,offshore
+2023,7,7/11/2023,13:27,MBNH_3D0712231,MBNHw3D0712231,MBNH_3D071223,MBNH,D,,,,sample,NH3,5,,43.00003,-70.61956,,watts lab,galen,,,processed by genome center,,,77,70,offshore
+2023,7,7/11/2023,13:45,MBNH_3D0712232,MBNHw3D0712232,MBNH_3D071223,MBNH,D,,,,sample,NH3,5,,42.99964,-70.61962,,watts lab,galen,,,processed by genome center,,,76,70,offshore
+2023,7,7/11/2023,14:05,MBNH_3D0712233,MBNHw3D0712233,MBNH_3D071223,MBNH,D,,,,sample,NH3,5,,42.99986,-70.61933,,watts lab,galen,,,processed by genome center,,,80,70,offshore
+2023,8,8/16/2023,11:41,MBNH_3D0816231,MBNHw3D0816231,MBNH_3D081623,MBNH,D,,,,sample,NH3,5,,42.99989,-70.61974,,watts lab,galen,,,processed by genome center,,,84,76,offshore
+2023,8,8/16/2023,12:03,MBNH_3D0816232,MBNHw3D0816232,MBNH_3D081623,MBNH,D,,,,sample,NH3,5,,42.99992,-70.61975,,watts lab,galen,,,processed by genome center,,,79,70,offshore
+2023,8,8/16/2023,12:24,MBNH_3D0816233,MBNHw3D0816233,MBNH_3D081623,MBNH,D,,,,sample,NH3,5,,42.99968,-70.61977,,watts lab,galen,,,processed by genome center,,,90,80,offshore
+2023,9,9/18/2023,11:37,MBNH_3D0918231,MBNHw3D0918231MF,MBNH_3D091823,MBNH,D,,,,sample,NH3,5,,42.99971,-70.6199,,watts lab,galen,,,processed by genome center,,,90,80,offshore
+2023,9,9/18/2023,11:58,MBNH_3D0918232,MBNHw3D0918232MF,MBNH_3D091823,MBNH,D,,,,sample,NH3,5,,42.99963,-70.6199,,watts lab,galen,,,processed by genome center,,,89,80,offshore
+2023,9,9/18/2023,12:17,MBNH_3D0918233,MBNHw3D0918233MF,MBNH_3D091823,MBNH,D,,,,sample,NH3,5,,43.00008,-70.61975,,watts lab,galen,,,processed by genome center,,,80,70,offshore
+2023,6,6/7/2023,12:22,MBNH_3D607231,MBNH6072313D,MBNH_3D60723,MBNH,D,,,,sample,NH3,5,,42.99799,-70.61736,,watts lab,galen,,,processed by genome center,,,71,60,offshore
+2023,6,6/7/2023,12:40,MBNH_3D607232,MBNH6072323D,MBNH_3D60723,MBNH,D,,,,sample,NH3,5,,42.99835,-70.61884,,watts lab,galen,,,processed by genome center,,,94,80,offshore
+2023,6,6/7/2023,12:56,MBNH_3D607233,MBNH6072333D,MBNH_3D60723,MBNH,D,,,,sample,NH3,5,,42.99853,-70.62026,,watts lab,galen,,,processed by genome center,,,85,70,offshore
+2023,7,7/11/2023,13:30,MBNH_3S0712231,MBNHw3S0712231,MBNH_3S071223,MBNH,S,,,,sample,NH3,5,,43.00002,-70.61957,,watts lab,galen,,,processed by genome center,,,77,,offshore
+2023,7,7/11/2023,13:58,MBNH_3S0712232,MBNHw3S0712232,MBNH_3S071223,MBNH,S,,,,sample,NH3,5,,43.0004,-70.61967,,watts lab,galen,,,processed by genome center,,,75,,offshore
+2023,7,7/11/2023,14:31,MBNH_3S0712233,MBNHw3S0712233,MBNH_3S071223,MBNH,S,,,,sample,NH3,5,,43.00046,-70.61924,,watts lab,galen,,,processed by genome center,,,76,,offshore
+2023,8,8/16/2023,11:36,MBNH_3S0816231,MBNHw3S0816231,MBNH_3S081623,MBNH,S,,,,sample,NH3,5,,42.99989,-70.61974,,watts lab,galen,,,processed by genome center,,,84,,offshore
+2023,8,8/16/2023,12:02,MBNH_3S0816232,MBNHw3S0816232,MBNH_3S081623,MBNH,S,,,,sample,NH3,5,,43.00007,-70.62034,,watts lab,galen,,,processed by genome center,,,85,,offshore
+2023,8,8/16/2023,12:22,MBNH_3S0816233,MBNHw3S0816233,MBNH_3S081623,MBNH,S,,,,sample,NH3,5,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,9,9/18/2023,11:36,MBNH_3S0918231,MBNHw3S0918231MF,MBNH_3S091823,MBNH,S,,,,sample,NH3,5,,42.99993,-70.62148,,watts lab,galen,,,processed by genome center,,,90,,offshore
+2023,9,9/18/2023,11:45,MBNH_3S0918232,MBNHw3S0918232MF,MBNH_3S091823,MBNH,S,,,,sample,NH3,5,,43.0001,-70.6196,,watts lab,galen,,,processed by genome center,,,80,,offshore
+2023,9,9/18/2023,12:00,MBNH_3S0918233,MBNHw3S0918233MF,MBNH_3S091823,MBNH,S,,,,sample,NH3,5,,42.99958,-70.61976,,watts lab,galen,,,processed by genome center,,,90,,offshore
+2023,6,6/7/2023,12:18,MBNH_3S607231,MBNH6072313S,MBNH_3S60723,MBNH,S,,,,sample,NH3,5,,42.99814,-70.6179,,watts lab,galen,,,processed by genome center,,,78,na,offshore
+2023,6,6/7/2023,12:35,MBNH_3S607232,MBNH6072323S,MBNH_3S60723,MBNH,S,,,,sample,NH3,5,,42.99855,-70.61864,,watts lab,galen,,,processed by genome center,,,89,na,offshore
+2023,6,6/7/2023,12:45,MBNH_3S607233,MBNH6072333S,MBNH_3S60723,MBNH,S,,,,sample,NH3,5,,42.99868,-70.62027,,watts lab,galen,,,processed by genome center,,,93,na,offshore
+2023,7,7/11/2023,12:25,MBNH_4071223TB,MBNHw4071223TB,MBNH_4071223TB,MBNH,TB,,,,blank,NH4,1,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,8,8/16/2023,13:01,MBNH_4081623TB,MBNHw4081623TB,MBNH_4081623TB,MBNH,TB,,,,blank,NH4,1,,42.999282,-70.60343,,watts lab,galen,,,processed by genome center,,,95,,offshore
+2023,9,9/18/2023,10:31,MBNH_4091823TB,MBNHw4091823TBMF,MBNH_4091823TB,MBNH,TB,,,,blank,NH4,1,,42.99344,-70.60357,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,6,6/7/2023,13:15,MBNH_460723TB,MBNH60723TB4,MBNH_460723TB,MBNH,TB,,,,blank,NH4,1,,42.99315,-70.60335,,watts lab,galen,,,processed by genome center,,,na,na,offshore
+2023,7,7/11/2023,12:30,MBNH_4D0712231,MBNHw4D0712231,MBNH_4D071223,MBNH,D,,,,sample,NH4,5,,42.9927,-70.60239,,watts lab,galen,,,processed by genome center,,,98,80,offshore
+2023,7,7/11/2023,12:50,MBNH_4D0712232,MBNHw4D0712232,MBNH_4D071223,MBNH,D,,,,sample,NH4,5,,42.99276,-70.60326,,watts lab,galen,,,processed by genome center,,,89,80,offshore
+2023,7,7/11/2023,13:04,MBNH_4D0712233,MBNHw4D0712233,MBNH_4D071223,MBNH,D,,,,sample,NH4,5,,42.99274,-70.60266,,watts lab,galen,,,processed by genome center,,,93,80,offshore
+2023,8,8/16/2023,13:07,MBNH_4D0816231,MBNHw4D0816231,MBNH_4D081623,MBNH,D,,,,sample,NH4,5,,42.99282,-70.60343,,watts lab,galen,,,processed by genome center,,,95,85,offshore
+2023,8,8/16/2023,13:25,MBNH_4D0816232,MBNHw4D0816232,MBNH_4D081623,MBNH,D,,,,sample,NH4,5,,42.99297,-70.60334,,watts lab,galen,,,processed by genome center,,,108,100,offshore
+2023,8,8/16/2023,13:49,MBNH_4D0816233,MBNHw4D0816233,MBNH_4D081623,MBNH,D,,,,sample,NH4,5,,42.99323,-70.60328,,watts lab,galen,,,processed by genome center,,,108,90,offshore
+2023,9,9/18/2023,10:33,MBNH_4D0918231,MBNHw4D0918231MF,MBNH_4D091823,MBNH,D,,,,sample,NH4,5,,42.99344,-70.60357,,watts lab,galen,,,processed by genome center,,,100,90,offshore
+2023,9,9/18/2023,10:52,MBNH_4D0918232,MBNHw4D0918232MF,MBNH_4D091823,MBNH,D,,,,sample,NH4,5,,42.99345,-70.6037,,watts lab,galen,,,processed by genome center,,,98,90,offshore
+2023,9,9/18/2023,11:12,MBNH_4D0918233,MBNHw4D0918233MF,MBNH_4D091823,MBNH,D,,,,sample,NH4,5,,42.99353,-70.60371,,watts lab,galen,,,processed by genome center,,,97,90,offshore
+2023,6,6/7/2023,13:15,MBNH_4D607231,MBNH6072314D,MBNH_4D60723,MBNH,D,,,,sample,NH4,5,,42.9929,-70.60284,bumped bottom with niskin,watts lab,galen,,,processed by genome center,,,97,90,offshore
+2023,6,6/7/2023,13:39,MBNH_4D607232,MBNH6072324D,MBNH_4D60723,MBNH,D,,,,sample,NH4,5,,42.99181,-70.60181,,watts lab,galen,,,processed by genome center,,,99,85,offshore
+2023,6,6/7/2023,13:52,MBNH_4D607233,MBNH6072334D,MBNH_4D60723,MBNH,D,,,,sample,NH4,5,,42.99247,-70.60271,,watts lab,galen,,,processed by genome center,,,110,100,offshore
+2023,7,7/11/2023,12:28,MBNH_4S0712231,MBNHw4S0712231,MBNH_4S071223,MBNH,S,,,,sample,NH4,5,,42.99276,-70.60246,,watts lab,galen,,,processed by genome center,,,98,,offshore
+2023,7,7/11/2023,12:48,MBNH_4S0712232,MBNHw4S0712232,MBNH_4S071223,MBNH,S,,,,sample,NH4,5,,42.99268,-70.60313,filter ripped a little,watts lab,galen,,,processed by genome center,,,93,,offshore
+2023,7,7/11/2023,13:01,MBNH_4S0712233,MBNHw4S0712233,MBNH_4S071223,MBNH,S,,,,sample,NH4,5,,42.99286,-70.60292,,watts lab,galen,,,processed by genome center,,,94,,offshore
+2023,8,8/16/2023,13:01,MBNH_4S0816231,MBNHw4S0816231,MBNH_4S081623,MBNH,S,,,,sample,NH4,5,,42.99282,-70.60343,,watts lab,galen,,,processed by genome center,,,95,,offshore
+2023,8,8/16/2023,13:27,MBNH_4S0816232,MBNHw4S0816232,MBNH_4S081623,MBNH,S,,,,sample,NH4,5,,42.99307,-70.60374,,watts lab,galen,,,processed by genome center,,,100,,offshore
+2023,8,8/16/2023,13:52,MBNH_4S0816233,MBNHw4S0816233,MBNH_4S081623,MBNH,S,,,,sample,NH4,5,,42.99338,-70.60408,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,9,9/18/2023,10:35,MBNH_4S0918231,MBNHw4S0918231MF,MBNH_4S091823,MBNH,S,,,,sample,NH4,5,,42.9937,-70.60382,,watts lab,galen,,,processed by genome center,,,100,,offshore
+2023,9,9/18/2023,10:44,MBNH_4S0918232,MBNHw4S0918232MF,MBNH_4S091823,MBNH,S,,,,sample,NH4,5,,42.99352,-70.60331,,watts lab,galen,,,processed by genome center,,,98,,offshore
+2023,9,9/18/2023,11:04,MBNH_4S0918233,MBNHw4S0918233MF,MBNH_4S091823,MBNH,S,,,,sample,NH4,5,,42.99364,-70.60382,,watts lab,galen,,,processed by genome center,,,96,,offshore
+2023,6,6/7/2023,13:18,MBNH_4S607231,MBNH6072314S,MBNH_4S60723,MBNH,S,,,,sample,NH4,5,,42.99257,-70.60255,,watts lab,galen,,,processed by genome center,,,97,na,offshore
+2023,6,6/7/2023,13:32,MBNH_4S607232,MBNH6072324S,MBNH_4S60723,MBNH,S,,,,sample,NH4,5,,42.99216,-70.60177,,watts lab,galen,,,processed by genome center,,,99,na,offshore
+2023,6,6/7/2023,13:44,MBNH_4S607233,MBNH6072334S,MBNH_4S60723,MBNH,S,,,,sample,NH4,5,,42.99181,-70.6048,,watts lab,galen,,,processed by genome center,,,130,na,offshore
+2023,7,7/11/2023,11:09,MBNH_5071223TB,MBNHw5071223TB,MBNH_5071223TB,MBNH,TB,,,,blank,NH5,1,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,8,8/16/2023,14:13,MBNH_5081623TB,MBNHw5081623TB,MBNH_5081623TB,MBNH,TB,,,,blank,NH5,1,,42.98641,-70.58735,,watts lab,galen,,,processed by genome center,,,170,,offshore
+2023,9,9/18/2023,8:55,MBNH_5091823TB,MBNHw5091823TBMF,MBNH_5091823TB,MBNH,TB,,,,blank,NH5,1,,,,Filter ripped slightly,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,6,6/7/2023,14:04,MBNH_560723TB,MBNH60723TB5,MBNH_560723TB,MBNH,TB,,,,blank,NH5,1,,42.98582,-70.58658,,watts lab,galen,,,processed by genome center,,,na,na,offshore
+2023,7,7/11/2023,11:15,MBNH_5D0712231,MBNHw5D0712231,MBNH_5D071223,MBNH,D,,,,sample,NH5,5,,42.98619,-70.58556,,watts lab,galen,,,processed by genome center,,,186,170,offshore
+2023,7,7/11/2023,11:55,MBNH_5D0712232,MBNHw5D0712232,MBNH_5D071223,MBNH,D,,,,sample,NH5,5,,42.98634,-70.58649,,watts lab,galen,,,processed by genome center,,,180,170,offshore
+2023,7,7/11/2023,12:10,MBNH_5D0712233,MBNHw5D0712233,MBNH_5D071223,MBNH,D,,,,sample,NH5,5,,42.98594,-70.58656,,watts lab,galen,,,processed by genome center,,,170,160,offshore
+2023,8,8/16/2023,14:17,MBNH_5D0816231,MBNHw5D0816231,MBNH_5D081623,MBNH,D,,,,sample,NH5,5,,42.98641,-70.58735,,watts lab,galen,,,processed by genome center,,,170,160,offshore
+2023,8,8/16/2023,14:34,MBNH_5D0816232,MBNHw5D0816232,MBNH_5D081623,MBNH,D,,,,sample,NH5,5,,42.9866,-70.58802,,watts lab,galen,,,processed by genome center,,,180,170,offshore
+2023,8,8/16/2023,14:51,MBNH_5D0816233,MBNHw5D0816233,MBNH_5D081623,MBNH,D,,,,sample,NH5,5,,42.98687,-70.5873,,watts lab,galen,,,processed by genome center,,,165,155,offshore
+2023,9,9/18/2023,9:06,MBNH_5D0918231,MBNHw5D0918231MF,MBNH_5D091823,MBNH,D,,,,sample,NH5,5,,42.9866,-70.58699,,unknown,galen,,,processed by genome center,not present in most recent output; sample ID was input as a guess based on other sample IDs rather than directly grabbed from the bioinformatics output metadata,,170,160,offshore
+2023,9,9/18/2023,9:35,MBNH_5D0918232,MBNHw5D0918232MF,MBNH_5D091823,MBNH,D,,,,sample,NH5,5,,42.98695,-70.58736,,watts lab,galen,,,processed by genome center,,,165,155,offshore
+2023,9,9/18/2023,9:56,MBNH_5D0918233,MBHw5d0918233MF,MBNH_5D091823,MBNH,D,,,,sample,NH5,5,,42.98669,-70.58731,,unknown,galen,,,processed by genome center,not present in most recent output; sample ID was input as a guess based on other sample IDs rather than directly grabbed from the bioinformatics output metadata,,165,155,offshore
+2023,6,6/7/2023,14:22,MBNH_5D607231,MBNH6072315D,MBNH_5D60723,MBNH,D,,,,sample,NH5,5,,42.98591,-70.5864,,watts lab,galen,,,processed by genome center,,,186,160,offshore
+2023,6,6/7/2023,14:36,MBNH_5D607232,MBNH6072325D,MBNH_5D60723,MBNH,D,,,,sample,NH5,5,,42.98586,-70.58634,,watts lab,galen,,,processed by genome center,,,180,160,offshore
+2023,6,6/7/2023,14:54,MBNH_5D607233,MBNH6072335D,MBNH_5D60723,MBNH,D,,,,sample,NH5,5,,42.98658,-70.587,,watts lab,galen,,,processed by genome center,,,180,160,offshore
+2023,7,7/11/2023,11:09,MBNH_5S0712231,MBNHw5S0712231,MBNH_5S071223,MBNH,S,,,,sample,NH5,5,,42.98623,-70.58571,,watts lab,galen,,,processed by genome center,,,186,,offshore
+2023,7,7/11/2023,11:20,MBNH_5S0712232,MBNHw5S0712232,MBNH_5S071223,MBNH,S,,,,sample,NH5,5,,42.98544,-70.58428,,watts lab,galen,,,processed by genome center,,,140,,offshore
+2023,7,7/11/2023,11:34,MBNH_5S0712233,MBNHw5S0712233,MBNH_5S071223,MBNH,S,,,,sample,NH5,5,,42.98619,-70.58608,,watts lab,galen,,,processed by genome center,,,177,,offshore
+2023,8,8/16/2023,14:13,MBNH_5S0816231,MBNHw5S0816231,MBNH_5S081623,MBNH,S,,,,sample,NH5,5,,42.98641,-70.58735,,watts lab,galen,,,processed by genome center,,,170,,offshore
+2023,8,8/16/2023,14:27,MBNH_5S0816232,MBNHw5S0816232,MBNH_5S081623,MBNH,S,,,,sample,NH5,5,,42.98654,-70.58734,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,8,8/16/2023,,MBNH_5S0816233,MBNHw5S0816233,MBNH_5S081623,MBNH,S,,,,sample,NH5,5,,,,,watts lab,galen,,,processed by genome center,,,,,offshore
+2023,9,9/18/2023,8:52,MBNH_5S0918231,MBNHw5S0918231MF,MBNH_5S091823,MBNH,S,,,,sample,NH5,5,,42.98837,-70.58662,,unknown,galen,,,processed by genome center,not present in most recent output; sample ID was input as a guess based on other sample IDs rather than directly grabbed from the bioinformatics output metadata,,170,,offshore
+2023,9,9/18/2023,9:09,MBNH_5S0918232,MBNHw5S0918232MF,MBNH_5S091823,MBNH,S,,,,sample,NH5,5,,42.98711,-70.58734,,watts lab,galen,,,processed by genome center,,,160,,offshore
+2023,9,9/18/2023,9:19,MBNH_5S0918233,MBNHw5S0918233MF,MBNH_5S091823,MBNH,S,,,,sample,NH5,5,,42.98668,-70.5871,,watts lab,galen,,,processed by genome center,,,159,,offshore
+2023,6,6/7/2023,14:10,MBNH_5S607231,MBNH6072315S,MBNH_5S60723,MBNH,S,,,,sample,NH5,5,,42.98581,-70.58591,,watts lab,galen,,,processed by genome center,,,185,na,offshore
+2023,6,6/7/2023,14:22,MBNH_5S607232,MBNHw6072325S,MBNH_5S60723,MBNH,S,,,,sample,NH5,5,,42.98557,-70.58595,,unknown,galen,,,processed by genome center,not present in most recent output; sample ID was input as a guess based on other sample IDs rather than directly grabbed from the bioinformatics output metadata,,185,na,offshore
+2023,6,6/7/2023,14:37,MBNH_5S607233,MBNH6072335S,MBNH_5S60723,MBNH,S,,,,sample,NH5,5,,42.98577,-70.58621,,watts lab,galen,,,processed by genome center,,,180,na,offshore
+2022,6,6/29/2022,1:00:00 PM,PP_22_01_B,10_1,PP_22_01_B,TERNS,TB,PP_22_01_B,Blank_PP_22_01_B,1-Oct,blank,Piscataqua river downriver,1,1,43.0780641,-70.7519313,"tied benny's pink paracord long lead to the bottle to collect water, so that is a potential source of contamination i suppose lol",watts lab,,,,processed by genome center,,D4,,,downriver
+2022,6,6/29/2022,,PP_22_01_D1,10_2,PP_22_01,TERNS,S,PP_22_01_D1,PP_22_01_D1,2-Oct,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,E4,,,downriver
+2022,6,6/29/2022,1:05:00 PM,PP_22_01_D2,10_3,PP_22_01,TERNS,S,PP_22_01_D2,PP_22_01_D2,3-Oct,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,F4,,,downriver
+2022,7,7/6/2022,12:55:00 PM,PP_22_03_B,13_1,PP_22_03_B,TERNS,TB,PP_22_03_B,Blank_PP_22_03_B,13-1,blank,Piscataqua river downriver,1,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,E5,,,downriver
+2022,7,7/6/2022,1:05:00 PM,PP_22_03_D1,13_2,PP_22_03,TERNS,S,PP_22_03_D1,PP_22_03_D1,13-2,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,,,,downriver
+2022,7,7/6/2022,1:05:00 PM,PP_22_03_D2,13_3,PP_22_03,TERNS,S,PP_22_03_D2,PP_22_03_D2,13-3,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,G5,,,downriver
+2022,7,7/13/2022,2:10:00 PM,PP_22_04_B,17_1,PP_22_04_B,TERNS,TB,PP_22_04_B,Blank_PP_22_04_B,17-1,blank,Piscataqua river downriver,1,1,43.0780641,-70.7519313,,watts lab,,1.025,13.6,processed by genome center,,A7,,,downriver
+2022,7,7/13/2022,,PP_22_04_D1,17_2,PP_22_04,TERNS,S,PP_22_04_D1,PP_22_04_D1,17-2,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,1.025,13.6,processed by genome center,,B7,,,downriver
+2022,7,7/13/2022,,PP_22_04_D2,17_3,PP_22_04,TERNS,S,PP_22_04_D2,PP_22_04_D2,17-3,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,1.025,13.6,processed by genome center,,C7,,,downriver
+2022,7,7/28/2022,10:10:00 AM,PP_22_05_B,30_1,PP_22_05_B,TERNS,TB,PP_22_05_B,Blank_PP_22_05_B,30-1,blank,Piscataqua river downriver,1,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,H11,,,downriver
+2022,7,7/28/2022,,PP_22_05_D1,30_2,PP_22_05,TERNS,S,PP_22_05_D1,PP_22_05_D1,30-2,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,A12,,,downriver
+2022,7,7/28/2022,10:20:00 AM,PP_22_05_D2,30_3,PP_22_05,TERNS,S,PP_22_05_D2,PP_22_05_D2,30-3,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,B12,,,downriver
+2022,7,7/27/2022,2:15:00 PM,PP_22_07_B,23_1,PP_22_07_B,TERNS,TB,PP_22_07_B,Blank_PP_22_07_B,23-1,blank,Piscataqua river downriver,1,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,C9,,,downriver
+2022,7,7/27/2022,,PP_22_07_D1,23_2,PP_22_07,TERNS,S,PP_22_07_D1,PP_22_07_D1,23-2,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,D9,,,downriver
+2022,7,7/27/2022,,PP_22_07_D2,23_3,PP_22_07,TERNS,S,PP_22_07_D2,PP_22_07_D2,23-3,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,E9,,,downriver
+2022,7,7/28/2022,11:15:00 AM,PP_22_08_B,26_1,PP_22_08_B,TERNS,TB,PP_22_08_B,Blank_PP_22_08_B,26-1,blank,Piscataqua river downriver,1,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,D10,,,downriver
+2022,7,7/28/2022,,PP_22_08_D1,26_2,PP_22_08,TERNS,S,PP_22_08_D1,PP_22_08_D1,26-2,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,E10,,,downriver
+2022,7,7/28/2022,,PP_22_08_D2,26_3,PP_22_08,TERNS,S,PP_22_08_D2,PP_22_08_D2,26-3,sample,Piscataqua river downriver,2,1,43.0780641,-70.7519313,,watts lab,,,,processed by genome center,,F10,,,downriver
+2021,7,7/11/2021,~9:30,S1T1,S1T1,S1,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.07833,-70.71427,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,7,7/11/2021,~9:30,S1T2,S1T2,S1,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.07853,-70.71265,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,7,7/11/2021,10:55:00 AM,S2T1,S2T1,S2,TERNS,S,,,,sample,Little bay,4,,43.12102,-70.84983,,watts lab,eastern,,,processed by watts lab,,,,,estuary
+2021,7,7/11/2021,11:06:00 AM,S2T2,S2T2,S2,TERNS,S,,,,sample,Little bay,4,,43.12483,-70.85121,,watts lab,eastern,,,processed by watts lab,,,,,estuary
+2021,7,7/19/2021,9:25:00 AM,S3T1,S3T1,S3,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.07445,-70.71754,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,7,7/19/2021,9:34:00 AM,S3T2,S3T2,S3,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.0739,-70.71402,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,7,7/22/2021,1:52:00 PM,S4T1,S4T1,S4,TERNS,S,,,,sample,Little bay,4,,43.12478,-70.85915,"S4T1-01 was built in filter, the other was normal",watts lab,eastern,,,processed by watts lab,,,,,estuary
+2021,7,7/22/2021,1:54:00 PM,S4T2,S4T2,S4,TERNS,S,,,,sample,Little bay,4,,43.12617,-70.85641,"S4T2-01 was built in filter, the other was normal",watts lab,eastern,,,processed by watts lab,,,,,estuary
+2021,7,7/26/2021,8:24:00 AM,S5T1,S5T1,S5,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.07822,-70.71165,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,7,7/26/2021,8:27:00 AM,S5T2,S5T2,S5,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.07793,-70.71311,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,7,7/26/2021,9:13:00 AM,S6T1,S6T1,S6,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.12118,-70.8405,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,7,7/26/2021,9:22:00 AM,S6T2,S6T2,S6,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.12314,-70.84412,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,8,8/10/2021,10:42:00 AM,S7T1,S7T1,S7,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.11908,-70.83338,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,8,8/10/2021,10:50:00 AM,S7T2,S7T2,S7,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.12176,-70.83846,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,8,8/3/2021,9:56:00 AM,S8T1,S8T1,S8,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.12112,-70.83926,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,8,8/3/2021,10:00:00 AM,S8T2,S8T2,S8,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.12101,-70.84137,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,8,8/3/2021,11:26:00 AM,S9T1,S9T1,S9,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.07784,-70.71616,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2021,8,8/3/2021,11:32:00 AM,S9T2,S9T2,S9,TERNS,S,,,,sample,Piscataqua river mouth,4,,43.07777,-70.71359,,watts lab,galen,,,processed by watts lab,,,,,nearshore
+2022,6,6/8/2022,12:20:00 PM,SSC_22_01_B,3_1,SSC_22_01_B,TERNS,TB,SSC_22_01_B,Blank_SSC_22_01_B,1-Mar,blank,Odiorne point,1,1,43.0468104,-70.7152682,filter ripped during transfer from vaccuum to vial; was SSC_22_B1,watts lab,,,,processed by genome center,,G1,,,nearshore
+2022,6,6/8/2022,12:22:00 PM,SSC_22_01_D1,3_2,SSC_22_01,TERNS,S,SSC_22_01_D1,SSC_22_01_D1,2-Mar,sample,Odiorne point,2,1,43.0468104,-70.7152682,was SSC_22_01,watts lab,,,,processed by genome center,,H1,,,nearshore
+2022,6,6/8/2022,12:25:00 PM,SSC_22_01_D2,3_3,SSC_22_01,TERNS,S,SSC_22_01_D2,SSC_22_01_D2,3-Mar,sample,Odiorne point,2,1,43.0468104,-70.7152682,filter had tear in it that happened some time during filtering process; was SSC_22_02,watts lab,,,,processed by genome center,,A2,,,nearshore
+2023,6,6/9/2023,8:10-8:24,TERNSLB0609231,TERNSwLB0609231,TERNSwLB060923,TERNS,S,,,,sample,Little bay,2,1,43.09538,-70.86021,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,6,6/9/2023,8:10-8:24,TERNSLB0609232,TERNSwLB0609232,TERNSwLB060923,TERNS,S,,,,sample,Little bay,2,1,43.09538,-70.86021,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,6,6/9/2023,8:10-8:24,TERNSLB060923TB,TERNSwLB060923TB,TERNSwLB060923TB,TERNS,S,,,,blank,Little bay,1,1,43.09538,-70.86021,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,6,6/22/2023,8:15,TERNSLB0622231,TERNSwLB0622231,TERNSwLB062223,TERNS,S,,,,sample,Little bay,2,1,43.09605,-70.85938,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,6,6/22/2023,8:15,TERNSLB0622232,TERNSwLB0622232,TERNSwLB062223,TERNS,S,,,,sample,Little bay,2,1,43.09605,-70.85938,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,6,6/22/2023,8:15,TERNSLB062223TB,TERNSwLB062223TB,TERNSwLB062223TB,TERNS,S,,,,blank,Little bay,1,1,43.09605,-70.85938,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,6,6/30/2023,8:15-8:51,TERNSLB0630231,TERNSwLB0630231,TERNSwLB063023,TERNS,S,,,,sample,Little bay,2,1,43.09372,-70.86084,samples sat in my truck in the heat for a few days:/,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,6,6/30/2023,8:15-8:51,TERNSLB0630232,TERNSwLB0630232,TERNSwLB063023,TERNS,S,,,,sample,Little bay,2,1,43.09372,-70.86084,samples sat in my truck in the heat for a few days:/,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,6,6/30/2023,8:15-8:51,TERNSLB063023TB,TERNSwLB063023TB,TERNSwLB063023TB,TERNS,S,,,,blank,Little bay,1,1,43.09372,-70.86084,samples sat in my truck in the heat for a few days:/,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,7,7/7/2023,8:20-9:10,TERNSLB0707231,TERNSwLB0707231,TERNSwLB070723,TERNS,S,,,,sample,Little bay,1.5,1,43.09579,-70.85927,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,7,7/7/2023,8:20-9:10,TERNSLB0707232,TERNSwLB0707232,TERNSwLB070723,TERNS,S,,,,sample,Little bay,1.5,1,43.09579,-70.85927,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,7,7/7/2023,8:20-9:10,TERNSLB070723TB,TERNSwLB070723TB,TERNSwLB070723TB,TERNS,S,,,,blank,Little bay,1,1,43.09579,-70.85927,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,7,7/20/2023,10:15,TERNSLB0720231,TERNSwLB720231,TERNSwLB072023,TERNS,S,,,,sample,Little bay,2,,43.07713,-70.71112,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,7,7/20/2023,10:15,TERNSLB0720232,TERNSwLB720232,TERNSwLB072023,TERNS,S,,,,sample,Little bay,2,,43.07713,-70.71112,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,7,7/20/2023,10:15,TERNSLB072023TB,TERNSwLB72023TB,TERNSwLB072023TB,TERNS,S,,,,blank,Little bay,1,1,43.07713,-70.71112,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,7,7/28/2023,11:15-11:37,TERNSLB0728231,TERNSwLB728231,TERNSwLB072823,TERNS,S,,,,sample,Little bay,2,,43.0921145,-70.8640383,JEL dock,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,7,7/28/2023,11:15-11:37,TERNSLB0728232,TERNSwLB728232,TERNSwLB072823,TERNS,S,,,,sample,Little bay,2,,43.0921145,-70.8640383,JEL dock,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,7,7/28/2023,11:15-11:37,TERNSLB072823TB,TERNSwLB72823TB,TERNSwLB072823TB,TERNS,S,,,,blank,Little bay,1,,43.0921145,-70.8640383,JEL dock,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,8,8/3/2023,9:15,TERNSLB0803231,TERNSwLB803231,TERNSwLB080323,TERNS,S,,,,sample,Little bay,2,1,43.094227,-70.859747,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,8,8/3/2023,9:15,TERNSLB0803232,TERNSwLB803232,TERNSwLB080323,TERNS,S,,,,sample,Little bay,2,1,43.094227,-70.859747,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,8,8/3/2023,9:15,TERNSLB080323TB,TERNSwLB80323TB,TERNSwLB080323TB,TERNS,S,,,,blank,Little bay,1,1,43.094227,-70.859747,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,8,8/9/2023,08:10-08:32,TERNSLB0809231,TERNSwLB809231,TERNSwLB080923,TERNS,S,,,,sample,Little bay,2,,43.095412,-70.859023,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,8,8/9/2023,08:10-08:32,TERNSLB0809232,TERNSwLB809232,TERNSwLB080923,TERNS,S,,,,sample,Little bay,2,,43.095412,-70.859023,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,8,8/9/2023,08:10-08:32,TERNSLB080923TB,TERNSwLB80923TB,TERNSwLB080923TB,TERNS,S,,,,blank,Little bay,1,,43.095412,-70.859023,,Watts lab,eastern,,,processed by watts lab,,,,,estuary
+2023,6,6/13/2023,8:10-9:06,TERNSPR061323TB,TERNSwPR061323TB,TERNSwPR061323TB,TERNS,S,,,,blank,Piscataqua river mouth,1,1,43.07784,-70.71055,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,6,6/21/2023,15:51,TERNSPR0621231,TERNSwPR0621231,TERNSwPR062123,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.0722075,-70.7108499,didnt take a blank for this sample; CML dock,Watts lab,na,,,processed by watts lab,,,,,nearshore
+2023,6,6/21/2023,15:51,TERNSPR0621232,TERNSwPR0621232,TERNSwPR062123,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.0722075,-70.7108499,didnt take a blank for this sample; CML dock,Watts lab,na,,,processed by watts lab,,,,,nearshore
+2023,6,6/29/2023,8:15-8:40,TERNSPR0629231,TERNSwPR0629231,TERNSwPR062923,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.07728,-70.70877,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,6,6/29/2023,8:15-8:40,TERNSPR0629232,TERNSwPR0629232,TERNSwPR062923,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.07728,-70.70877,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,6,6/29/2023,8:15-8:40,TERNSPR062923TB,TERNSwPR062923TB,TERNSwPR062923TB,TERNS,S,,,,blank,Piscataqua river mouth,1,1,43.07728,-70.70877,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/6/2023,8:15,TERNSPR0706231,TERNSwPR706231,TERNSwPR070623,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.07726,-70.70976,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/6/2023,8:15,TERNSPR0706232,TERNSwPR706232,TERNSwPR070623,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.07726,-70.70976,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/6/2023,8:15,TERNSPR070623TB,TERNSwPR70623TB,TERNSwPR070623TB,TERNS,S,,,,blank,Piscataqua river mouth,1,1,43.07726,-70.70976,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/12/2023,16:15,TERNSPR0712231,TERNSwPR0712231,TERNSwPR071223,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.07642,-70.70828,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/12/2023,16:15,TERNSPR0712232,TERNSwPR0712232,TERNSwPR071223,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.07642,-70.70828,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/12/2023,16:15,TERNSPR071223TB,TERNSwPR071223TB,TERNSwPR071223TB,TERNS,S,,,,blank,Piscataqua river mouth,1,1,43.07642,-70.70828,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/18/2023,9:10-9:50,TERNSPR071823TB,TERNSwPRTB71823TB,TERNSwPR071823TB,TERNS,S,,,,blank,Piscataqua river mouth,1,1,43.07831,-70.71249,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/25/2023,08:15-08:26,TERNSPR0725231,TERNSwPR725231,TERNSwPR072523,TERNS,S,,,,sample,Piscataqua river mouth,2,,43.07686,-70.70797,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/25/2023,08:15-08:26,TERNSPR0725232,TERNSwPR725232,TERNSwPR072523,TERNS,S,,,,sample,Piscataqua river mouth,2,,43.07686,-70.70797,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/25/2023,08:15-08:26,TERNSPR072523TB,TERNSwPR72523TB,TERNSwPR072523TB,TERNS,S,,,,blank,Piscataqua river mouth,1,,43.07686,-70.70797,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/1/2023,10:30-10:45,TERNSPR0801231,TERNSwPR801231,TERNSwPR080123,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.07776,-70.71295,lots of herring around,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/1/2023,10:30-10:45,TERNSPR0801232,TERNSwPR801232,TERNSwPR080123,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.07776,-70.71295,lots of herring around,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/1/2023,10:30-10:45,TERNSPR080123TB,TERNSwPR80123TB,TERNSwPR080123TB,TERNS,S,,,,blank,Piscataqua river mouth,1,1,43.07776,-70.71295,lots of herring around,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/11/2023,8:25-8:40,TERNSPR0811231,TERNSwPR811231,TERNSwPR081123,TERNS,S,,,,sample,Piscataqua river mouth,2,,43.07296,-70.7109,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/11/2023,8:25-8:40,TERNSPR0811232,TERNSwPR811232,TERNSwPR081123,TERNS,S,,,,sample,Piscataqua river mouth,2,,43.07296,-70.7109,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/11/2023,8:25-8:40,TERNSPR081123TB,TERNSwPR81123TB,TERNSwPR081123TB,TERNS,S,,,,blank,Piscataqua river mouth,1,,43.07296,-70.7109,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/18/2023,,TERNSPR08182312L,TERNSwPR2L0818231MF,TERNSwPR2L081823,TERNS,S,,,,sample,Piscataqua river mouth,2,1,,,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/18/2023,,TERNSPR08182313L,TERNSwPR3L0818231MF,TERNSwPR3L081823,TERNS,S,,,,sample,Piscataqua river mouth,3,1,,,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/18/2023,,TERNSPR08182322L,TERNSwPR2L0818232MF,TERNSwPR2L081823,TERNS,S,,,,sample,Piscataqua river mouth,2,1,,,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/18/2023,,TERNSPR08182323L,TERNSwPR3L0818232MF,TERNSwPR3L081823,TERNS,S,,,,sample,Piscataqua river mouth,3,1,,,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,8,8/18/2023,,TERNSPR08182335L,TERNSwPR5L081823,TERNSwPR5L081823,TERNS,S,,,,sample,Piscataqua river mouth,5,1,,,,unknown,galen,,,unknown,supposedly this was processed by the watts lab but it isnt showing up in 9/27/24 run; sample ID was generated based on best guess from other sample IDs rather than putting from most recent bioinformatics run metadata,,,,nearshore
+2023,8,8/18/2023,,TERNSPR081823TB,TERNSwPR081823TBMF,TERNSwPR081823TB,TERNS,S,,,,blank,Piscataqua river mouth,1,1,,,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,6,6/13/2023,8:10-9:06,TERNSPR2L0613231,TERNSwPR2L0613231,TERNSwPR2L061323,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.07784,-70.71055,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,6,6/13/2023,8:10-9:06,TERNSPR2L0613232,TERNSwPR2L0613232,TERNSwPR2L061323,TERNS,S,,,,sample,Piscataqua river mouth,2,1,43.07784,-70.71055,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,6,6/13/2023,8:10-9:06,TERNSPR3L0613231,TERNSwPR3L0613231MF,TERNSwPR3L061323,TERNS,S,,,,sample,Piscataqua river mouth,3,1,43.07784,-70.71055,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,6,6/13/2023,8:10-9:06,TERNSPR3L0613232,TERNSwPR3L0613232,TERNSwPR3L061323,TERNS,S,,,,sample,Piscataqua river mouth,3,1,43.07784,-70.71055,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,6,6/13/2023,8:10-9:06,TERNSPR5L061323,TERNSwPR5L061323,TERNSwPR5L061323,TERNS,S,,,,sample,Piscataqua river mouth,5,1,43.07784,-70.71055,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/18/2023,9:10-9:50,TERNSPR5L0718231,TERNSwPR5L718231,TERNSwPR5L071823,TERNS,S,,,,sample,Piscataqua river mouth,5,1,43.07831,-70.71249,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/18/2023,9:10-9:50,TERNSPR5L0718232,TERNSwPR5L718232,TERNSwPR5L071823,TERNS,S,,,,sample,Piscataqua river mouth,5,2,43.07831,-70.71249,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2023,7,7/18/2023,9:10-9:50,TERNSPR5L0718233,TERNSwPR5L718233,TERNSwPR5L071823,TERNS,S,,,,sample,Piscataqua river mouth,5,2,43.07831,-70.71249,,Watts lab,galen,,,processed by watts lab,,,,,nearshore
+2022,6,6/8/2022,11:10:00 AM,WC_22_01_B,4_1,WC_22_01_B,TERNS,TB,WC_22_01_B,Blank_WC_22_01_B,1-Apr,blank,Sagamore creek,1,1,43.0618559,-70.736862,was WC_22_B1,watts lab,,,,processed by genome center,,B2,,,upriver
+2022,6,6/8/2022,11:15:00 AM,WC_22_01_D1,4_2,WC_22_01,TERNS,S,WC_22_01_D1,WC_22_01_D1,2-Apr,sample,Sagamore creek,2,1,43.0618559,-70.736862,was WC_22_01,watts lab,,,,processed by genome center,,C2,,,upriver
+2022,6,6/8/2022,11:20:00 AM,WC_22_01_D2,4_3,WC_22_01,TERNS,S,WC_22_01_D2,WC_22_01_D2,3-Apr,sample,Sagamore creek,2,1,43.0618559,-70.736862,was WC_22_02,watts lab,,,,processed by genome center,,D2,,,upriver
+2022,6,6/22/2022,10:30:00 AM,WC_22_03_B,8_1,WC_22_03_B,TERNS,TB,WC_22_03_B,Blank_WC_22_03_B,1-Aug,blank,Sagamore creek,1,1,43.0618559,-70.736862,,watts lab,,,,processed by genome center,,F3,,,upriver
+2022,6,6/22/2022,,WC_22_03_D1,8_2,WC_22_03,TERNS,S,WC_22_03_D1,WC_22_03_D1,2-Aug,sample,Sagamore creek,2,1,43.0618559,-70.736862,,watts lab,,,,processed by genome center,,G3,,,upriver
+2022,6,6/22/2022,10:40:00 AM,WC_22_03_D2,8_3,WC_22_03,TERNS,S,WC_22_03_D2,WC_22_03_D2,3-Aug,sample,Sagamore creek,2,1,43.0618559,-70.736862,small rip in filter,watts lab,,,,processed by genome center,,H3,,,upriver
+2022,7,7/6/2022,11:15:00 AM,WC_22_05_B,14_1,WC_22_05_B,TERNS,TB,WC_22_05_B,Blank_WC_22_05_B,14-1,blank,Sagamore creek,1,1,43.0618559,-70.736862,,watts lab,,,,processed by genome center,,H5,,,upriver
+2022,7,7/6/2022,,WC_22_05_D1,14_2,WC_22_05,TERNS,S,WC_22_05_D1,WC_22_05_D1,14-2,sample,Sagamore creek,2,1,43.0618559,-70.736862,,watts lab,,,,processed by genome center,,A6,,,upriver
+2022,7,7/6/2022,11:15:00 AM,WC_22_05_D2,14_3,WC_22_05,TERNS,S,WC_22_05_D2,WC_22_05_D2,14-3,sample,Sagamore creek,2,1,43.0618559,-70.736862,,watts lab,,,,processed by genome center,,B6,,,upriver
+2022,7,7/20/2022,11:15:00 AM,WC_22_07_B,20_1,WC_22_07_B,TERNS,TB,WC_22_07_B,Blank_WC_22_07_B,20-1,blank,Sagamore creek,1,1,43.0618559,-70.736862,,watts lab,,1.024,17.8,processed by genome center,,B8,,,upriver
+2022,7,7/20/2022,,WC_22_07_D1,20_2,WC_22_07,TERNS,S,WC_22_07_D1,WC_22_07_D1,20-2,sample,Sagamore creek,2,1,43.0618559,-70.736862,,watts lab,,1.024,17.8,processed by genome center,,C8,,,upriver
+2022,7,7/20/2022,,WC_22_07_D2,20_3,WC_22_07,TERNS,S,WC_22_07_D2,WC_22_07_D2,20-3,sample,Sagamore creek,2,1,43.0618559,-70.736862,,watts lab,,1.024,17.8,processed by genome center,,D8,,,upriver
+2022,7,7/27/2022,9:50:00 AM,WC_22_09_B,27_1,WC_22_09_B,TERNS,TB,WC_22_09_B,Blank_WC_22_09_B,27-1,blank,Sagamore creek,1,1,43.0618559,-70.736862,,watts lab,,1.024,19.4,processed by genome center,,G10,,,upriver
+2022,7,7/27/2022,,WC_22_09_D1,27_2,WC_22_09,TERNS,S,WC_22_09_D1,WC_22_09_D1,27-2,sample,Sagamore creek,2,1,43.0618559,-70.736862,,watts lab,,1.024,19.4,processed by genome center,,H10,,,upriver
+2022,7,7/27/2022,,WC_22_09_D2,27_3,WC_22_09,TERNS,S,WC_22_09_D2,WC_22_09_D2,27-3,sample,Sagamore creek,2,1,43.0618559,-70.736862,,watts lab,,1.024,19.4,processed by genome center,,A11,,,upriver

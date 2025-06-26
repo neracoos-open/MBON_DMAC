@@ -50,6 +50,9 @@ def guess_metadata(variable_name) -> dict | None:
                 accepted_metadata[
                     field_name
                 ] = accepted_value  # Assign the entire accepted value
+            elif field_name == 'destinationName':
+                # use variable name as destination if no match
+                accepted_metadata[field_name] = variable_name
 
     return accepted_metadata
 

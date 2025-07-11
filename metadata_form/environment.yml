@@ -1,8 +1,9 @@
 name: metadata_form
 channels:
-  - defaults
   - conda-forge
 dependencies:
-  - pre-commit
-  - python
+  - lxml
+  - python=3.10
+  - pandas=1.5.*
   - streamlit
+  - pre-commit

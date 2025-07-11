@@ -4,7 +4,10 @@ GLOBAL_ERDDAP_FIELDS = {
         "description": "Acknowledgment or credits for data sources or contributors",
         "required": False,
     },
-    "creator_country": {"description": "Country of the data creator", "required": True},
+    "creator_country": {
+        "description": "Country of the data creator",
+        "required": True
+    },
     "creator_email": {
         "description": "Email address of the data creator",
         "required": True,
@@ -13,7 +16,10 @@ GLOBAL_ERDDAP_FIELDS = {
         "description": "Institution of the data creator",
         "required": True,
     },
-    "creator_name": {"description": "Name of the data creator", "required": True},
+    "creator_name": {
+        "description": "Name of the data creator",
+        "required": True
+    },
     "creator_role": {
         "description": "Role of the data creator (e.g., originator, distributor)",
         "required": True,
@@ -50,14 +56,26 @@ GLOBAL_ERDDAP_FIELDS = {
         "description": "Program under which the data was collected",
         "required": True,
     },
-    "project": {"description": "Project associated with the dataset", "required": True},
-    "sourceUrl": {"description": "URL for the original data source", "required": False},
+    "project": {
+        "description": "Project associated with the dataset",
+        "required": True
+    },
+    "sourceUrl": {
+        "description": "URL for the original data source",
+        "required": False
+    },
     "subsetVariables": {
         "description": "List of variables used to subset the data.",
         "required": True,
     },
-    "summary": {"description": "Brief summary of the dataset", "required": True},
-    "title": {"description": "Title of the dataset", "required": True},
+    "summary": {
+        "description": "Brief summary of the dataset",
+        "required": True
+    },
+    "title": {
+        "description": "Title of the dataset",
+        "required": True
+    },
     "time_coverage_start": {
         "description": "Start date and time of the data coverage",
         "required": True,

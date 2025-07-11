@@ -1,5 +1,6 @@
 variable_metadata_guess = {
     "destinationName": {
+        "time": ["TIME", "time", "Time"],
         "Cruise_Identification_Tag": ["KEY"],
         "CRUISE_ID": ["CRUISE_ID"],
         "Station_ID": ["STATION"],
@@ -63,10 +64,10 @@ variable_metadata_guess = {
         "Latitude": ["LAT_(DECIMAL)", "LAT"],
         "Longitude": ["LON_(DECIMAL)", "LON"]
     },
-        "standard_name": {
-            "time": ["time"],
-            "latitude": ["LAT_(DECIMAL)", "LAT"],
-            "longitude": ["LON_(DECIMAL)", "LON"]
+    "standard_name": {
+        "time": ["time"],
+        "latitude": ["LAT_(DECIMAL)", "LAT"],
+        "longitude": ["LON_(DECIMAL)", "LON"]
     },
     "units": {
         "meters": ["NET_DEPTH", "STATION_DEPTH"],

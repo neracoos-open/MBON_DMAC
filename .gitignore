@@ -2,3 +2,4 @@
 metadata_form/test_data/
 *.pyc
 data_ingest/*
+datasets/Calanus_index/*

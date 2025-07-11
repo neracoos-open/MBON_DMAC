@@ -1,0 +1,8 @@
+name: calanus_index
+
+dependencies:
+  - python
+  - pandas
+  - jupyter
+  - numpy
+  - plotly

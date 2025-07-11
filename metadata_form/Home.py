@@ -17,6 +17,7 @@ checks to ensure required fields are present.
 
 import pandas as pd
 import streamlit as st
+import yaml
 
 from data import constants
 from utils import convert_forms_to_yaml, guess_metadata, validate_metadata_dict
@@ -24,16 +25,46 @@ from utils import convert_forms_to_yaml, guess_metadata, validate_metadata_dict
 
 st.set_page_config(page_title="Metadata Input", layout="wide", page_icon=":dna:")
 
+# --- Save/Load Progress Controls ---
+with st.sidebar:
+    st.header("Save/Load Progress")
+    # Save Progress
+    checkpoint_filename = "metadata_checkpoint.yaml"
+    if st.session_state.get('uploaded_csv_name'):
+        base = st.session_state['uploaded_csv_name'].rsplit('.', 1)[0]
+        checkpoint_filename = f"{base}_metadata_checkpoint.yaml"
+    if st.session_state.get('combined_metadata'):
+        checkpoint_yaml = yaml.dump(st.session_state['combined_metadata'])
+        st.download_button(
+            label="Download Checkpoint",
+            data=checkpoint_yaml,
+            file_name=checkpoint_filename,
+            mime="text/yaml",
+        )
+    # Load Progress
+    uploaded_progress = st.file_uploader("Load Progress", type=["yaml", "yml"], key="progress_upload")
+    if uploaded_progress:
+        try:
+            loaded_data = yaml.safe_load(uploaded_progress)
+            if isinstance(loaded_data, dict):
+                st.session_state["combined_metadata"] = loaded_data
+                st.success("Progress loaded! Continue editing your metadata.")
+            else:
+                st.error("Uploaded file is not a valid YAML dictionary.")
+        except Exception as e:
+            st.error(f"Failed to load YAML: {e}")
+
 if "combined_metadata" not in st.session_state:
     st.session_state["combined_metadata"] = {}
 
-st.title("MBON Metadata Input Form")
+st.header("MBON Metadata Input Form", divider="rainbow")
 
 uploaded_file = st.file_uploader("Choose a CSV file")
 
 if uploaded_file is not None:
     # Read the CSV file into a Pandas DataFrame
     df = pd.read_csv(uploaded_file)
+    st.session_state['uploaded_csv_name'] = uploaded_file.name
 
     # Place the DataFrame in an expander
     with st.expander("Preview"):
@@ -43,29 +74,30 @@ if uploaded_file is not None:
     st.write("**Global Metadata**")
     with st.form("global_metadata_form"):
         form_data = {}
-
         num_fields = len(constants.GLOBAL_ERDDAP_FIELDS.keys())
         cols = st.columns(
             min(num_fields, 5),
         )  # Create columns based on the number of fields, up to 5
-
         for field_idx, (key, value) in enumerate(
             constants.GLOBAL_ERDDAP_FIELDS.items(),
         ):
             with cols[
                 field_idx % len(cols)
             ]:  # Place fields in columns in a circular fashion
+                prefill_val = st.session_state["combined_metadata"].get("global", {}).get(key, "")
                 form_data[key] = st.text_input(
                     label=key,
                     placeholder=value["description"],
                     help=value["description"],
+                    value=prefill_val,
                 )
-
         # Add a submit button to trigger form submission
         global_submitted = st.form_submit_button("Submit")
 
     if global_submitted:
-        # Access the form data after submission
+        # Save the current data as a checkpoint, even if it's not valid yet
+        st.session_state['combined_metadata']['global'] = form_data
+        # Now proceed with validation as before
         required_fields = [
             key
             for key, value in constants.GLOBAL_ERDDAP_FIELDS.items()
@@ -100,12 +132,12 @@ if uploaded_file is not None:
                     for field_idx, field in enumerate(
                         constants.DATA_VARIABLE_ERDDAP_FIELDS,
                     ):
+                        prefill_val = st.session_state["combined_metadata"].get("var_data", {}).get(col, {}).get(field, guessed_metadata.get(field, ""))
                         if field == "ioos_category":
-                            pre_selected_index = (
-                                constants.IOOS_CATEGORIES.index(guessed_metadata[field])
-                                if field in guessed_metadata
-                                else 0
-                            )
+                            if prefill_val in constants.IOOS_CATEGORIES:
+                                pre_selected_index = constants.IOOS_CATEGORIES.index(prefill_val)
+                            else:
+                                pre_selected_index = 0
                             metadata[field] = st.selectbox(
                                 label=field,
                                 options=constants.IOOS_CATEGORIES,
@@ -113,22 +145,19 @@ if uploaded_file is not None:
                                 index=pre_selected_index,
                             )
                         else:
-                            guessed_value = (
-                                guessed_metadata[field]
-                                if field in guessed_metadata.keys()
-                                else None
-                            )
                             metadata[field] = st.text_input(
                                 field,
                                 key=f"{col}_{field_idx}",
-                                value=guessed_value,
+                                value=prefill_val,
                             )
-
                     column_metadata[col] = metadata
 
         column_submitted = st.form_submit_button("Submit")
 
     if column_submitted or ("output_yaml" in st.session_state and st.session_state["output_yaml"]):
+        # Save the current data as a checkpoint, even if it's not valid yet
+        st.session_state['combined_metadata']['var_data'] = column_metadata
+
         required_var_fields = [
             key
             for key, value in constants.DATA_VARIABLE_ERDDAP_FIELDS.items()

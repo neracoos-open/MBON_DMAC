@@ -22,7 +22,7 @@ from data import constants
 from utils import convert_forms_to_yaml, guess_metadata, validate_metadata_dict
 
 
-st.set_page_config(layout="wide", page_icon=":dna:")
+st.set_page_config(page_title="Metadata Input", layout="wide", page_icon=":dna:")
 
 if "combined_metadata" not in st.session_state:
     st.session_state["combined_metadata"] = {}

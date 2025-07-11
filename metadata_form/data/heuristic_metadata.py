@@ -63,10 +63,10 @@ variable_metadata_guess = {
         "Latitude": ["LAT_(DECIMAL)", "LAT"],
         "Longitude": ["LON_(DECIMAL)", "LON"]
     },
-        "standard_name": {
-            "time": ["time"],
-            "latitude": ["LAT_(DECIMAL)", "LAT"],
-            "longitude": ["LON_(DECIMAL)", "LON"]
+    "standard_name": {
+        "time": ["time"],
+        "latitude": ["LAT_(DECIMAL)", "LAT"],
+        "longitude": ["LON_(DECIMAL)", "LON"]
     },
     "units": {
         "meters": ["NET_DEPTH", "STATION_DEPTH"],
